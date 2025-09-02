@@ -568,6 +568,9 @@
     justify-content: end;
     position: relative;
     overflow: hidden;
+    overflow: hidden;
+    gap: 0;
+    justify-content: space-around;
 
 
     .rotatetext {
@@ -596,16 +599,24 @@
             //text-transform: uppercase;
             //font-weight: bold;
 
-            @include fontCalcSize(44, 22);
+            background: #000;
+            font-size: calc(22px + (44 - 22) * (100vw - 320px) / (1920 - 320));
             position: absolute;
-            left: -40px;
+            left: 0;
             top: 50%;
+            -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-            writing-mode: vertical-rl;
+            -webkit-writing-mode: sideways-lr;
+            -ms-writing-mode: sideways-lr;
+            writing-mode: sideways-lr;
             text-orientation: mixed;
-            font-size: 20px;
+            font-size: 43px;
             font-weight: bold;
-            color: #333;
+            color: #fff;
+            display: block;
+            height: 100%;
+            text-transform: uppercase;
+            padding: 0 15px;
         }
     }
 
