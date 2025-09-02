@@ -90,21 +90,21 @@
         <section class="stripe-3 main-benefit-section">
         <div class="container">
             <h2 class="text-center">Benefits of Hiring <span class="defaultcolor">Wikipedia</span> Experts</h2>
-            <p class="text-center">Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts ensure accuracy, neutrality, and long-term page stability for your brand or profile.</p>
-            <div class="btn-box text-center">
+            <p class="text-center mt-4">Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts ensure accuracy, neutrality, and long-term page stability for your brand or profile.</p>
+            <div class="btn-box text-center mt-5">
                 <a href="javascript:;" class="btn btn-primary open-livechat">Live Chat</a>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
-                        <i class="ic-1"></i>
+                        <i class="ic-3"></i>
                         <h3>Thorough Research & Data Collection</h3>
                         <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
-                        <i class="ic-2"></i>
+                        <i class="ic-3"></i>
                         <h3>Professional Page Creation</h3>
                         <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
                     </div>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
-                        <i class="ic-4"></i>
+                        <i class="ic-3"></i>
                         <h3>Reputation Enhancement</h3>
                         <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
                     </div>
@@ -126,5 +126,26 @@
             </div>
         </div>
     </section>
+
+
+    <section class="stripe-3 left-right-col-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <h2 class="text-left">Our Commitment to Your <span class="defaultcolor">Comfort</span></h2>
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor id fringilla. Curabitur ridiculus lorem et enim facilisis lectus lectus id leo. Diam dignissim donec placerat adipiscing.</p>
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor id fringilla.</p>
+                    <div class="btn-box text-left">
+                        <a href="javascript:;" class="btn btn-primary open-livechat">Live Chat</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="right-col-image text-right">
+                        <img loading="lazy" class="img-fluid" src="assets/img/mix/exp-image.webp" alt="exp-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
 
 </asp:Content>

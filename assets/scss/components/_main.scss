@@ -526,7 +526,7 @@
 }
 
 .defaultcolor {
-    background: $iPrimary;
+    color: $iPrimary;
 }
 
 .contentarea {
@@ -729,6 +729,12 @@
     text-align: center;
     border-radius: 50px;
     transition: 0.5s ease;
+
+    i {
+        @include fontCalcSize(40, 30);
+        margin-bottom:20px;
+        display:inline-block;
+    }
 
     &:hover > * {
         color: #fff;
