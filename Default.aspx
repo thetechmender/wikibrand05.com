@@ -90,21 +90,21 @@
         <section class="stripe-3 main-benefit-section">
         <div class="container">
             <h2 class="text-center">Benefits of Hiring <span class="defaultcolor">Wikipedia</span> Experts</h2>
-            <p class="text-center">Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts ensure accuracy, neutrality, and long-term page stability for your brand or profile.</p>
-            <div class="btn-box text-center">
+            <p class="text-center mt-4">Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts ensure accuracy, neutrality, and long-term page stability for your brand or profile.</p>
+            <div class="btn-box text-center mt-5">
                 <a href="javascript:;" class="btn btn-primary open-livechat">Live Chat</a>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
-                        <i class="ic-1"></i>
+                        <i class="ic-3"></i>
                         <h3>Thorough Research & Data Collection</h3>
                         <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
-                        <i class="ic-2"></i>
+                        <i class="ic-3"></i>
                         <h3>Professional Page Creation</h3>
                         <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
                     </div>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
-                        <i class="ic-4"></i>
+                        <i class="ic-3"></i>
                         <h3>Reputation Enhancement</h3>
                         <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
                     </div>
