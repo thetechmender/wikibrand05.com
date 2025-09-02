@@ -5,15 +5,30 @@
 
 <style>
 .benefit-box {
-    padding: 25px;
-    background: #ccc;
+    padding: 35px 20px;
+    background: #EFEFEF;
     text-align: center;
+    border-radius: 50px;
+    transition: 0.5s ease;
+
+    &:hover > *
+    {
+        color: #fff;
+    }
+
+    &:hover{
+               background: #F67A00;
+               transition: 0.5s ease;
+           }
 }
 </style>
-    <section class="main-benefit-section">
+    <section class="stripe-3 main-benefit-section">
         <div class="container">
-            <h2>Benefits of Hiring <span class="defaultcolor">Wikipedia</span> Experts</h2>
-            <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts ensure accuracy, neutrality, and long-term page stability for your brand or profile.</p>
+            <h2 class="text-center">Benefits of Hiring <span class="defaultcolor">Wikipedia</span> Experts</h2>
+            <p class="text-center">Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts ensure accuracy, neutrality, and long-term page stability for your brand or profile.</p>
+            <div class="btn-box text-center">
+                <a href="javascript:;" class="btn btn-primary open-livechat">Live Chat</a>
+            </div>
             <div class="row">
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
