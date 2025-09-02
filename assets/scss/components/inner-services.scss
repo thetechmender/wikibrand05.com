@@ -1,0 +1,220 @@
+﻿.main-inner-pages-banner-services {
+    padding: 50px 0 50px 0;
+
+    @media(max-width:991px) {
+        .banner-inner-page-style {
+            margin-bottom: 20px;
+        }
+    }
+
+    h1 {
+        @include fontCalcSize(72, 30);
+        line-height: 1;
+    }
+
+    ul.banner-listings {
+        @include fontCalcSize(24, 18);
+        margin-bottom: 10px;
+        padding-left: 30px;
+
+        li {
+            padding-bottom: 18px;
+            position: relative;
+
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                left: -30px;
+                top: 10px;
+                width: 16px;
+                height: 17px;
+                background-image: url("/assets/img/icons/li.webp");
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+.form-with-image {
+    position: relative !important;
+
+    .imgback {
+        position: absolute !important;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .formbanner {
+        padding: 38px 28px 38px 28px;
+        background: linear-gradient(135deg, #ffcc00 30%,#fe7634 70%);
+        text-align: center;
+
+        h2 {
+            @include fontCalcSize(35, 28);
+            margin-bottom: 15px;
+            color: $white;
+        }
+
+        p {
+            @include fontCalcSize(16, 12);
+        }
+
+        .textarea, .form-control {
+            background: $white;
+            color: #373737 !important;
+            padding: 0 20px;
+            @include fontCalcSize(17, 13);
+            border: 1px solid #CFCFCF !important;
+
+            &::placeholder {
+                color: #848484;
+            }
+
+            &::-webkit-input-placeholder {
+                color: #848484;
+            }
+
+            &::-moz-placeholder {
+                color: #848484;
+            }
+
+            &:-ms-input-placeholder {
+                color: #848484;
+            }
+
+            &:-moz-placeholder {
+                color: #848484;
+            }
+        }
+
+        input {
+            height: 45px;
+        }
+
+        @media(max-width:1366px) {
+            padding: 25px;
+        }
+    }
+
+    .iti--separate-dial-code .iti__selected-flag {
+        background: $white !important;
+        border-right: 1px solid #CFCFCF !important;
+    }
+
+    .iti--separate-dial-code .iti__selected-dial-code {
+        color: #373737 !important;
+    }
+
+    .iti.iti--allow-dropdown.iti--separate-dial-code input {
+        padding: 0 0 0 85px !important;
+    }
+
+    .bgwhitebtn {
+        background: #fff;
+        width: 50% !important;
+        margin: 0px auto;
+        transition: all 0.5s ease;
+
+        &:hover {
+            background: $black !important;
+            color: #fff !important;
+            z-index: 5;
+            position: relative;
+        }
+    }
+
+    .btn-primary {
+        background: linear-gradient(to bottom, #FE7634 0%, #FFCC00 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        width: 100%;
+        height: 45px;
+        line-height: 1;
+        font-weight: bold !important;
+        transition: all 0.5s ease;
+
+
+        &:hover {
+            background: inherit !important;
+            -webkit-background-clip: #fff !important;
+            -webkit-text-fill-color: #fff !important;
+            color: #fff !important;
+        }
+    }
+
+    .imgicon {
+        width: 30%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .imgtext {
+        width: 70%;
+        text-align: left;
+
+        p {
+            margin-bottom: 0 !important;
+            @include fontCalcSize(10, 8);
+            color: $white;
+        }
+    }
+}
+
+.iconboxform {
+    margin-top: 30px;
+
+    .col-lg-4.col-md-12 {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+
+    .fflex {
+        gap: 5px;
+        align-items: center;
+
+        @media(max-width:991px) {
+            display: none;
+        }
+    }
+}
+
+p.cswidth {
+    width: 70%;
+    margin: 0px auto;
+
+    @media(max-width:991px) {
+        width: 100%;
+    }
+}
+
+.boxservices {
+    text-align: center;
+
+    &:hover {
+
+        h3 {
+            color: #FE7634;
+        }
+    }
+
+    h3 {
+        @include fontCalcSize(100, 60);
+        color: $white;
+        -webkit-text-stroke: 2px #FE7634;
+        transition: all 0.5s ease;
+    }
+}
+
+
+.customfontsize {
+    h3 {
+        @include fontCalcSize(40, 20);
+    }
+}

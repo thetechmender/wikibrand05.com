@@ -1,0 +1,79 @@
+﻿html,
+body {
+    @include fontCalcSize(16, 14);
+    font-family: $primaryFont;
+    color: #373737;
+    font-weight: 400;
+    font-display: swap; 
+}
+li {
+    @include fontCalcSize(16, 14);
+    color: #373737;
+    font-family: $primaryFont;
+    font-weight: 400;
+
+    margin: 0 0 0px 0;
+}
+
+
+a {
+    @include fontCalcSize(16, 14);
+    color: #373737;
+    font-family: $primaryFont;
+    font-weight: 400;
+
+    margin: 0 0 20px 0;
+}
+
+p {
+    @include fontCalcSize(16, 14);
+    color: #373737;
+    font-family: $primaryFont; 
+    font-weight: 400;
+    
+    margin: 0 0 20px 0;
+}
+h1 {
+    @include fontCalcSize(50, 35);
+    font-weight: 400;
+    font-family: $secondaryFont;
+ 
+    margin: 0 0 20px 0;
+    color: $black;
+}
+
+h2 {
+    @include fontCalcSize(60, 30);
+    font-weight: 400;
+    font-family: $secondaryFont;
+ 
+    margin: 0 0 20px 0;
+    color: $black;
+}
+
+h3 {
+    @include fontCalcSize(45, 25);
+    font-weight: 400;
+    font-family: $secondaryFont;
+    margin: 0 0 10px 0;
+    color: $white;
+}
+
+h4 {
+    @include fontCalcSize(25, 16);
+    color: $black;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 10px 0;
+    font-family: $primaryFont;
+}
+
+h5 {
+    @include fontCalcSize(20, 14);
+    font-family: $primaryFont;
+    color: $iGray;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 10px 0;
+}
+

@@ -1,0 +1,383 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #F4F4EC;
+
+    &.is--menu {
+        overflow: hidden;
+
+        .js-menubtn {
+            pointer-events: none;
+        }
+    }
+}
+
+*,
+*:after,
+*:before {
+    outline: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+    color: $white;
+
+    &:hover {
+        color: $iPrimary;
+    }
+}
+
+svg {
+    transform: translateZ(0);
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.js-tosvg {
+    max-width: 100%;
+    max-height: 100%;
+
+    polygon,
+    path {
+        transition: fill .35s linear;
+    }
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+.container {
+    @media(min-width:1601px) {
+        max-width: 1320px;
+    }
+}
+
+.defaultOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: all .35s ease;
+    width: 100%;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    background-color: rgba($black, .20);
+}
+
+.is--menu {
+    .defaultOverlay {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: inherit;
+    }
+}
+
+.bgc {
+    &-iPrimary {
+        background: #FE7634;
+        background: linear-gradient(360deg, #fe7634 0%, #fc0 100%);
+    }
+
+    &-black {
+        background-color: $black;
+    }
+
+    &-white {
+        background-color: $white;
+    }
+
+    &-iwhite1 {
+        background-color: $iwhite1;
+    }
+
+    &-iGray1 {
+        background-color: $iGray1;
+    }
+
+    &-iSecondary {
+        background-color: $iSecondary;
+    }
+}
+
+.cl {
+    &-iPrimary {
+        color: $iPrimary;
+    }
+
+    &-iSecondary {
+        color: $iSecondary;
+    }
+
+    &-white {
+        color: $white;
+    }
+
+    &-black {
+        color: $black;
+    }
+
+    &-gray {
+        color: $iGray;
+    }
+}
+
+.stripe {
+    padding: 50px 0;
+    position: relative;
+
+    &-1 {
+        padding-top: 50px;
+        position: relative;
+    }
+
+    &-2 {
+        padding-bottom: 50px;
+        position: relative;
+    }
+
+    &-3 {
+        padding: 100px 0 50px 0;
+        position: relative;
+
+        @media(max-width:1199px) {
+            padding: 50px 0;
+        }
+
+        @media(max-width:991px) {
+            padding: 50px 0;
+        }
+
+        @media(max-width:480px) {
+            padding: 30px 0;
+        }
+    }
+
+    &-4 {
+        padding: 50px 0 100px 0;
+        position: relative;
+
+        @media(max-width:1199px) {
+            padding: 50px 0;
+        }
+
+        @media(max-width:991px) {
+            padding: 50px 0;
+        }
+
+        @media(max-width:480px) {
+            padding: 30px 0;
+        }
+    }
+
+    &-5 {
+        padding: 150px 0 150px 0;
+        position: relative;
+
+        @media(max-width:991px) {
+            padding: 50px 0 50px 0;
+        }
+    }
+
+    &-6 {
+        padding: 100px 0 100px 0;
+        position: relative;
+
+        @media (max-width:1199px) {
+            padding: 60px 0;
+        }
+
+    }
+
+    @media(max-width:991px) {
+        padding: 30px 0;
+    }
+}
+.fflex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.clrd-title {
+    background: linear-gradient(0deg, rgba(255, 149, 0, 1) 0%, rgba(254, 118, 52, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.bg-detail {
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.img-responsive{
+    width: 100% !important;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(3, 4, 94, 0.25);
+    -webkit-border-radius: 10px;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 0px;
+    background: #586162;
+}
+.iti--separate-dial-code .iti__selected-dial-code {
+    color: #000 !important;
+}
+.iti--separate-dial-code .iti__selected-dial-code {
+    color: #000 !important;
+}
+@media (max-width:1024px){
+    br{
+        display: none;
+    }
+    .desc-box p {
+        text-align: left !important;
+    }
+}
+button.btn-close {
+    border: none;
+    padding: 10px;
+    background-color: #FF9500;
+
+    img {
+        max-width: 20px;
+        filter:brightness(1)invert(1);
+    }
+}
+
+
+
+.modal-content {
+    background: #FE7634;
+    background: linear-gradient(360deg, #fe7634 0%, #fc0 100%);
+    text-align: center;
+    border-radius: 0px;
+
+    .modal-main-box {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+        .modal-image {
+            width: 45%;
+
+            @media (max-width: 991px) {
+                display: none;
+            }
+        }
+
+        .modal-form-box {
+            width: 55%;
+
+            @media (max-width: 991px) {
+                width: 100%;
+            }
+
+            .modal-header {
+                background: transparent;
+                border: none;
+                position: absolute;
+                width: 100%;
+                z-index: 9;
+                justify-content: end;
+                right: 0;
+                top: 0;
+
+                @media (max-width: 991px) {
+                    justify-content: end;
+                }
+            }
+
+            input.btn {
+                margin-top: 15px;
+            }
+
+            .modal-body h2 {
+                font-size: 40px;
+                text-align: left;
+            }
+
+            .btn.btn-primary{
+                background: #fff;
+                color: #000;
+            }
+        }
+    }
+}
+
+.fw-bold {
+    font-weight: 600;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+@media(max-width: 576px) {
+    .btn-box a:first-child {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 1000px !important;
+    }
+}

@@ -1,0 +1,188 @@
+.form-group {
+    margin-bottom: 20px;
+}
+
+.textarea,
+.form-control {
+    @include fontCalcSize(16, 14);
+    color: $iBlack1;
+    font-family: $primaryFont;
+    background-color: transparent;
+    line-height: normal;
+    font-weight: 400;
+    width: 100%;
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid #373737;
+    height: 80px;
+    text-align: left;
+    transition: all .35s ease;
+    max-width: 100%;
+    color: #373737;
+    @include placeholder($black);
+
+    &.is--error,
+    &.error-field {
+        border-color: red;
+    }
+
+    &:focus {
+        box-shadow: none;
+        background-color: transparent;
+        border: 1px solid #373737;
+        color: #373737;
+    }
+
+    @media(max-width: 1366px) {
+        height: 60px;
+    }
+}
+
+.iti--separate-dial-code {
+    .iti__selected-dial-code {
+        @include fontCalcSize(14, 12);
+        color: $black;
+        line-height: normal;
+        font-weight: 400;
+        
+    }
+}
+
+.iti__country {
+    @include fontCalcSize(14, 12);
+    color: $black;
+    line-height: normal;
+    font-weight: 400;
+    
+}
+
+.iti,
+select {
+    width: 100%;
+}
+
+.textarea {
+    height: 120px !important;
+}
+
+.label {
+    @include fontCalcSize(18, 14);
+    font-weight: 400;
+    color: $iBlack1;
+    position: relative;
+    display: block;
+    margin-bottom: 5px; 
+}
+
+.btn {
+    @include fontCalcSize(16, 14);
+    font-family: $primaryFont;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 6px !important;
+    text-align: center;
+    border: none;
+    transition: 0.5s ease;
+    text-transform: inherit;
+
+    @media (max-width:1600px) {
+        padding: 10px 20px;
+    }
+
+    @media (max-width: 575px) {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    &.btn-primary {
+        background: $iPrimary;
+        /* background: linear-gradient(0deg,rgba(255, 149, 0, 1) 0%, rgba(254, 118, 52, 1) 100%);*/
+        color: $white;
+
+        &:not(:disabled):not(.disabled).active:focus,
+        &:not(:disabled):not(.disabled):active:focus,
+        &.focus,
+        &:focus {
+            box-shadow: 0 0 2px .2rem rgba(#F4AF30, .3);
+        }
+
+        &:not(:disabled):not(.disabled).active,
+        &:not(:disabled):not(.disabled):active,
+        &:hover,
+        &.focus,
+        &:focus {
+            color: $black;
+            transition: 0.5s ease;
+            background: $iGray;
+            //background: linear-gradient(180deg,rgba(255, 149, 0, 1) 0%, rgba(254, 118, 52, 1) 100%);
+        }
+    }
+
+    &.btn-black {
+        background-color: $black;
+        border: 1px solid #000;
+        color: $white;
+        border-radius: 0px;
+
+
+        &:not(:disabled):not(.disabled).active:focus,
+        &:not(:disabled):not(.disabled):active:focus,
+        &.focus,
+        &:focus {
+            box-shadow: 0 0 2px .2rem rgba($black, .3);
+        }
+
+        &:not(:disabled):not(.disabled).active,
+        &:not(:disabled):not(.disabled):active,
+        &:hover,
+        &.focus,
+        &:focus {
+            border: 1px solid #fff;
+            background: #fff;
+            color: $black;
+        }
+    }
+
+    &.btn-white {
+        background-color: $white;
+        border: 1px solid #fff;
+        color: $black;
+        border-radius: 0px;
+
+
+        &:not(:disabled):not(.disabled).active:focus,
+        &:not(:disabled):not(.disabled):active:focus,
+        &.focus,
+        &:focus {
+            box-shadow: 0 0 2px .2rem rgba($black, .3);
+        }
+
+        &:not(:disabled):not(.disabled).active,
+        &:not(:disabled):not(.disabled):active,
+        &:hover,
+        &.focus,
+        &:focus {
+            border: 1px solid #000;
+            background: #000;
+            color: $white;
+        }
+    }
+}
+
+button,
+.btn {
+    &:focus {
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+@media (max-width:768px) {
+    .col-lg-12 .btn {
+        width: 100%;
+        display: inline-block;
+        max-width: 100%;
+    }
+}
