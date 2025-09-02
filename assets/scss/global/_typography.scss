@@ -43,8 +43,8 @@ h1 {
 }
 
 h2 {
-    @include fontCalcSize(60, 30);
-    font-weight: 400;
+    @include fontCalcSize(50, 30);
+    font-weight: 600;
     font-family: $secondaryFont;
  
     margin: 0 0 20px 0;
@@ -52,11 +52,11 @@ h2 {
 }
 
 h3 {
-    @include fontCalcSize(45, 25);
-    font-weight: 400;
+    @include fontCalcSize(26, 20);
+    font-weight: 600;
     font-family: $secondaryFont;
     margin: 0 0 10px 0;
-    color: $white;
+    color: $black;
 }
 
 h4 {
