@@ -85,7 +85,7 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
         </div>
 
-        <section class="stripe-3 contact-section">
+      <%--  <section class="stripe-3 contact-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -102,12 +102,12 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                         <h2 class="cl-black">Talk to us</h2>
                         <div class="form-box">
-                            <%--      <uc1:FooterFormSite runat="server" ID="FooterFormSite" />--%>
+                           
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>--%>
         <footer class="footer overflow-hidden">
             <div class="container">
                 <div class="row footer-inner-section lp-hide">
@@ -199,6 +199,21 @@
     <script type="text/javascript" src="/assets/js/functions.js"></script>
     <script src="/assets/js/utils.js"></script>
     <script src="/assets/js/intl-tel-input.js"></script>
+    <script>
+        $('.testimonial-holder').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            speed: 800,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+           
+          
+        });
+
+    </script>
     <%--<uc1:webchat runat="server" ID="webchat" />--%>
 </body>
 </html>

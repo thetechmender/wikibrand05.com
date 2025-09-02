@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'fontCalcSize'.
-        on line 11 of D:\september\01-09-2025\new-wiki-brand\wikibrand05.com\assets\scss\components\inner-services.scss, in `fontCalcSize'
-        from line 11 of D:\september\01-09-2025\new-wiki-brand\wikibrand05.com\assets\scss\components\inner-services.scss
+        on line 11 of D:\nabeel\projects-new\newwikibrand1\assets\scss\components\inner-services.scss, in `fontCalcSize'
+        from line 11 of D:\nabeel\projects-new\newwikibrand1\assets\scss\components\inner-services.scss
 
 6:             margin-bottom: 20px;
 7:         }
@@ -16,8 +16,8 @@ Error: Undefined mixin 'fontCalcSize'.
 16:         @include fontCalcSize(24, 18);
 
 Backtrace:
-D:\september\01-09-2025\new-wiki-brand\wikibrand05.com\assets\scss\components\inner-services.scss:11:in `fontCalcSize'
-D:\september\01-09-2025\new-wiki-brand\wikibrand05.com\assets\scss\components\inner-services.scss:11
+D:\nabeel\projects-new\newwikibrand1\assets\scss\components\inner-services.scss:11:in `fontCalcSize'
+D:\nabeel\projects-new\newwikibrand1\assets\scss\components\inner-services.scss:11
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -63,10 +63,9 @@ C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/bas
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
@@ -77,4 +76,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'fontCalcSize'.\A         on line 11 of D:\september\01-09-2025\new-wiki-brand\wikibrand05.com\assets\scss\components\inner-services.scss, in `fontCalcSize'\A         from line 11 of D:\september\01-09-2025\new-wiki-brand\wikibrand05.com\assets\scss\components\inner-services.scss\A \A 6:             margin-bottom: 20px;\A 7:         }\A 8:     }\A 9: \A 10:     h1 {\A 11:         @include fontCalcSize(72, 30);\A 12:         line-height: 1;\A 13:     }\A 14: \A 15:     ul.banner-listings {\A 16:         @include fontCalcSize(24, 18);"; }
+  content: "Error: Undefined mixin 'fontCalcSize'.\A         on line 11 of D:\nabeel\projects-new\newwikibrand1\assets\scss\components\inner-services.scss, in `fontCalcSize'\A         from line 11 of D:\nabeel\projects-new\newwikibrand1\assets\scss\components\inner-services.scss\A \A 6:             margin-bottom: 20px;\A 7:         }\A 8:     }\A 9: \A 10:     h1 {\A 11:         @include fontCalcSize(72, 30);\A 12:         line-height: 1;\A 13:     }\A 14: \A 15:     ul.banner-listings {\A 16:         @include fontCalcSize(24, 18);"; }
