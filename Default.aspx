@@ -4,7 +4,7 @@
 
     <section class="main-banner-section bannerposition" style="background-image: url(/assets/img/bg/brand-mainbg.webp);">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="contentarea">
                         <h1>Lorem ipsum dolor sit ame  conseet adng</h1>
