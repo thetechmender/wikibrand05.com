@@ -51,7 +51,7 @@
                             <div class="navigation">
                                 <ul>
                                     <li><a href="/"><span>Home</span></a></li>
-                                    <li><a href="/about-us/"><span>About Us</span></a></li>
+                                    <li><a href="/about/"><span>About Us</span></a></li>
                                     <li><a href="/services/"><span>Services</span></a></li>
                                     <li><a href="/testimonials/"><span>Testimonials</span></a></li>
                                     <li><a href="/contact-us/"><span>Contact Us</span></a></li>
@@ -110,20 +110,20 @@
         </section>--%>
         <footer class="footer overflow-hidden">
             <div class="container">
-                <div class="row footer-inner-section lp-hide">
-                    <div class="col-lg-3">
+                <div class="row footer-inner-section lp-hide justify-content-between">
+                    <div class="col-lg-4">
                         <div class="logo-widget">
                             <a href="javascript:;">
-                                <img src="/assets/img/brand/site-footer-logo.webp" alt="site-footer-logo">
+                                <img src="/assets/img/brand/site-logo.svg" alt="site-footer-logo">
                             </a>
                             <p>We transform your ideas into beautifully written books that move minds, open doors, and earn their place in the literary world.</p>
                         </div>
                     </div>
                     <div class="col-lg-2 col-sm-4">
                         <div class="link-widget">
-                            <h5>Company</h5>
+                            <h5>Quick Links</h5>
                             <ul class="link-bullits">
-                                <li><a href="/about-us/">About Us</a></li>
+                                <li><a href="/about/">About Us</a></li>
                                 <li><a href="/contact-us/">Contact Us</a></li>
                                 <li><a href="/disclaimer-policy/">Disclaimer Policy</a></li>
                                 <li><a href="/privacy-policy/">Privacy Policy</a></li>
@@ -131,9 +131,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-8">
+<%--                    <div class="col-lg-4 col-sm-8">
                         <div class="link-widget">
-                            <h5>Our Service</h5>
+                            <h5>Quick Links</h5>
                             <ul class="link-bullits flex-list">
                                 <li>
                                     <a href="/audiobook-services/">Audiobook</a>
@@ -155,27 +155,28 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div>--%>
                     <div class="col-lg-3">
                         <div class="link-widget">
-                            <h5>Contact Details</h5>
+                            <h5>Subscribe Now!
+</h5>
                             <ul class="link-bullits ct-details">
                                 <li>
                                     <a href="tel:<%=ConfigurationManager.AppSettings["brandTFN"] %>">
-                                        <span>Phone</span>
-                                        <span><%=ConfigurationManager.AppSettings["brandTFN"] %></span>
+                                  <%--      <span>Phone</span>--%>
+                                        <span><i class="ic-1 mr-3"></i><%=ConfigurationManager.AppSettings["brandTFN"] %></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="Mailto:<%=ConfigurationManager.AppSettings["brandEmail"] %>">
-                                        <span>Email</span>
-                                        <span><%=ConfigurationManager.AppSettings["brandEmail"] %></span>
+                                    <%--    <span>Email</span>--%>
+                                        <span><i class="ic-2 mr-3"></i><%=ConfigurationManager.AppSettings["brandEmail"] %></span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;">
-                                        <span>Address</span>
-                                        <span><%=ConfigurationManager.AppSettings["brandAddress"] %></span>
+                                    <a href="javascript:;" class="d-flex">
+                                   <%--     <span>Address</span>--%>
+                                        <span><i class="ic-5 mr-3" ></i></span><span><%=ConfigurationManager.AppSettings["brandAddress"] %></span>
                                     </a>
                                 </li>
                             </ul>
@@ -185,7 +186,7 @@
                 <div class="sec-copyright">
                     <div class="container">
                         <div class="fflex">
-                            <p>Copyright &copy <span class="copyrightyear"></span><%=ConfigurationManager.AppSettings["brandName"] %> | All Rights Reserved.</p>
+                            <p>Copyright &copy <span class="copyrightyear"></span> <%=ConfigurationManager.AppSettings["brandName"] %> | All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>

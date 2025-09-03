@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 customshaddow">
                     <div class="formarea fflex">
                         <div class="rotatetext">
                             <span>Reserve Your Discount</span>
@@ -397,5 +397,100 @@
         <div class="container">
             <h2 class="text-center">Got Questions? We’ve GOt Anwers.</h2>
         </div>
+        <div class="container mt-5">
+            <div class="boxgotquestion">
+                <div class="row fflex align-content-center">
+                    <div class="col-lg-3 col-md-12">
+                        <h3>How does My Wiki Brand help create a Wikipedia page?</h3>
+                    </div>
+                    <div class="col-lg-9 col-md-12">
+                        <div class="justify-content-center fflex">
+                            <div class="col-lg-11 col-md-12">
+                                <p class="mb-0">We guide you through the entire process, from in-depth research and drafting to publishing, ensuring your page is accurate, neutral, and fully compliant with Wikipedia’s strict guidelines. Our team highlights your achievements in a professional manner to maximize credibility.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxgotquestion">
+                <div class="row fflex align-content-center">
+                    <div class="col-lg-3 col-md-12">
+                        <h3>How can My Wiki Brand improve my page’s credibility?</h3>
+                    </div>
+                    <div class="col-lg-9 col-md-12">
+                        <div class="justify-content-center fflex">
+                            <div class="col-lg-11 col-md-12">
+                                <p class="mb-0">Our experts use only verified, reliable sources and craft content in a neutral, encyclopedic tone. This approach enhances your profile’s trustworthiness, increases visibility, and ensures your page is respected by Wikipedia’s community and readers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxgotquestion">
+                <div class="row fflex align-content-center">
+                    <div class="col-lg-3 col-md-12">
+                        <h3>How does My Wiki Brand maintain existing pages?</h3>
+                    </div>
+                    <div class="col-lg-9 col-md-12">
+                        <div class="justify-content-center fflex">
+                            <div class="col-lg-11 col-md-12">
+                                <p class="mb-0">We provide ongoing support, including regular monitoring, timely updates, and necessary edits. This keeps your page accurate, compliant with Wikipedia policies, and protected against unauthorized changes or content disputes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxgotquestion">
+                <div class="row fflex align-content-center">
+                    <div class="col-lg-3 col-md-12">
+                        <h3>Can My Wiki Brand help reach a global audience?</h3>
+                    </div>
+                    <div class="col-lg-9 col-md-12">
+                        <div class="justify-content-center fflex">
+                            <div class="col-lg-11 col-md-12">
+                                <p class="mb-0">Absolutely. We offer multilingual translations and localization services so your Wikipedia profile can be read and trusted by audiences worldwide, expanding your reach while maintaining accuracy and authenticity.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    
+        </div>
     </section>
+
+<section class="mysectionbg bg-white">
+            <section class="bg-sec">
+        <div class="container">
+
+
+            <div class="row cmt-bg " style="background-image: url('/assets/img/bg/bgoranges.webp')">
+                <div class="col-xl-5 col-lg-5 d-lg-block d-none">
+                    <div class="comment-img">
+                        <div class="comt-icon">
+                       <%--     <img src="/assets/img/icons/search-icon.png" class="img-fluid" />--%>
+                        </div>
+                        <img src="/assets/img/mix/trusted-icon.webp" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-sm-12">
+                    <div class="custompaddingstopbottom">
+                           <h2 class="text-white">Secure Spot on  World’s Trusted Platform</h2>
+   <p class="text-white">Secure your achievements and enhance your online credibility with a professionally crafted Wikipedia page. Our experts ensure every page is accurate, neutral, and fully compliant with Wikipedia’s strict guidelines. </p>
+   <div class="mt-2">
+       <a href="javascript:;" class="btn btn-white   mr-2" data-bs-toggle="modal" data-bs-target="#leadspopup">Create My Wikipedia</a>
+       <a href="javascript:;" class="btn btn-black open-livechat" >Live Chat</a>
+   </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</section>
+
+
 </asp:Content>

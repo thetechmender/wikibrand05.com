@@ -11,7 +11,7 @@ namespace wikibrand05.com
 {
 
 
-    public partial class Contact
+    public partial class testimonials
     {
     }
 }

@@ -7,28 +7,178 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %></title>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.min.css" />
 
-    <!-- CSS -->
+    <link href="/assets/css/intlTelInput.min.css" rel="stylesheet" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <%--    <%@ Register Src="~/include/formbanner.ascx" TagPrefix="uc1" TagName="formbanner" %>
+    <%@ Register Src="~/include/PopUpFormSite.ascx" TagPrefix="uc1" TagName="PopUpFormSite" %>
+    <%@ Register Src="~/include/FooterFormSite.ascx" TagPrefix="uc1" TagName="FooterFormSite" %>
+    <%@ Register Src="~/include/webchat.ascx" TagPrefix="uc1" TagName="webchat" %>--%>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link href="~/Content/mobile.css" rel="stylesheet" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
 </head>
 <body>
     <form runat="server">
         <!-- Header -->
-        <header class="text-center p-3 bg-dark text-white">
+ <%--       <header class="text-center p-3 bg-dark text-white">
             <h1 class="h4 mb-0">Mobile Master Page</h1>
-        </header>
+        </header>--%>
 
         <!-- Featured Content -->
-        <section class="featured-content my-3">
-            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
-        </section>
+    <section class="headersection">
+        <div class="topsection">
+            <div class="container">
+                <div class="row align-items-center ">
+                    <div class="col-lg-6 col-md-12">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="fflex justify-content-lg-end gap-3">
+                            <div class="iconstop"><a href="mailto:<%=ConfigurationManager.AppSettings["brandEmail"] %>"><i class="ic-1"></i><%=ConfigurationManager.AppSettings["brandEmail"] %></a></div>
+                            <div class="iconstop"><a href="mailto:<%=ConfigurationManager.AppSettings["brandTFN"] %>"><i class="ic-2"></i><%=ConfigurationManager.AppSettings["brandTFN"] %></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="header js-fixed">
+            <div class="container">
+                <div class="fflex justify-content-between defaultbg">
+                    <a href="/" class="logo">
+                        <img src="/assets/img/brand/site-logo.svg" alt="site-logo" />
+                    </a>
+                    <div class="rightsec lp-hide">
+                        <div class="navigation">
+                            <ul>
+                                <li><a href="/"><span>Home</span></a></li>
+                                <li><a href="/about/"><span>About Us</span></a></li>
+                                <li><a href="/services/"><span>Services</span></a></li>
+                                <li><a href="/testimonials/"><span>Testimonials</span></a></li>
+                                <li><a href="/contact-us/"><span>Contact Us</span></a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="nav-hamburger js-menubtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-black mr-2" data-bs-toggle="modal" data-bs-target="#leadspopup">Get a Quote</a>
+                        <a href="javascript:;" class="btn btn-white  open-livechat">Live Chat</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="defaultOverlay js-defaultOverlay"></div>
+        </header>
+    </section>
 
         <!-- Main Content -->
         <main class="container my-3">
             <asp:ContentPlaceHolder runat="server" ID="MainContent" />
         </main>
 
+
+
+
+                <footer class="footer overflow-hidden">
+            <div class="container">
+                <div class="row footer-inner-section lp-hide justify-content-between">
+                    <div class="col-lg-4">
+                        <div class="logo-widget">
+                            <a href="javascript:;">
+                                <img src="/assets/img/brand/site-logo.svg" alt="site-footer-logo">
+                            </a>
+                            <p>We transform your ideas into beautifully written books that move minds, open doors, and earn their place in the literary world.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="link-widget">
+                            <h5>Quick Links</h5>
+                            <ul class="link-bullits">
+                                <li><a href="/about/">About Us</a></li>
+                                <li><a href="/contact-us/">Contact Us</a></li>
+                                <li><a href="/disclaimer-policy/">Disclaimer Policy</a></li>
+                                <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                                <li><a href="/terms-and-conditions/">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+<%--                    <div class="col-lg-4 col-sm-8">
+                        <div class="link-widget">
+                            <h5>Quick Links</h5>
+                            <ul class="link-bullits flex-list">
+                                <li>
+                                    <a href="/audiobook-services/">Audiobook</a>
+                                </li>
+                                <li>
+                                    <a href="/book-editing-services/">Book Editing</a>
+                                </li>
+                                <li>
+                                    <a href="/book-publishing-services/">Book Publishing</a>
+                                </li>
+                                <li>
+                                    <a href="/book-writing-services/">Book Writing</a>
+                                </li>
+                                <li>
+                                    <a href="/book-marketing-services/">Book Marketing</a>
+                                </li>
+                                <li>
+                                    <a href="/book-printing-services/">Book Printing</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>--%>
+                    <div class="col-lg-3">
+                        <div class="link-widget">
+                            <h5>Subscribe Now!
+</h5>
+                            <ul class="link-bullits ct-details">
+                                <li>
+                                    <a href="tel:<%=ConfigurationManager.AppSettings["brandTFN"] %>">
+                                  <%--      <span>Phone</span>--%>
+                                        <span><i class="ic-1 mr-3"></i><%=ConfigurationManager.AppSettings["brandTFN"] %></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Mailto:<%=ConfigurationManager.AppSettings["brandEmail"] %>">
+                                    <%--    <span>Email</span>--%>
+                                        <span><i class="ic-2 mr-3"></i><%=ConfigurationManager.AppSettings["brandEmail"] %></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="d-flex">
+                                   <%--     <span>Address</span>--%>
+                                        <span><i class="ic-5 mr-3" ></i></span><span><%=ConfigurationManager.AppSettings["brandAddress"] %></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-copyright">
+                    <div class="container">
+                        <div class="fflex">
+                            <p>Copyright &copy <span class="copyrightyear"></span> <%=ConfigurationManager.AppSettings["brandName"] %> | All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- View Switcher -->
         <div class="text-center my-3">
             <friendlyUrls:ViewSwitcher runat="server" />

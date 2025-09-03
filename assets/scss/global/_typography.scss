@@ -46,7 +46,7 @@ h2 {
     @include fontCalcSize(50, 30);
     font-weight: 600;
     font-family: $secondaryFont;
- 
+ text-transform:uppercase;
     margin: 0 0 20px 0;
     color: $black;
 }

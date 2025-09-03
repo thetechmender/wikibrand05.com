@@ -1,8 +1,8 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="wikibrand05.com.About" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="services.aspx.cs" Inherits="wikibrand05.com.services" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
 
     <section class="main-banner-section bannerposition" style="background-image: url(/assets/img/bg/brand-mainbg.webp);">
@@ -10,7 +10,7 @@
             <div class="row d-flex align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="contentarea text-center">
-                        <h1>About Us</h1>
+                        <h1>Services</h1>
 
                         <div class="btn-box">
                             <a href="javascript:;" class="btn btn-primary mr-4 open-livechat">Live Chat</a>
@@ -18,142 +18,175 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
+
 
     <section class="stripe-3 bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="contentareaa">
-                        <h2>What We Stand By
-Our Commitment to
-<span class="defaultcolor">Excellence</span></h2>
-                        <p class="mb-4 pb-2">Delivering Accurate, Compliant, and Credible Wiki Solutions to Help Businesses, Brands, and Individuals Establish a Strong and Lasting Online Presence</p>
+                        <h2>USE RELIABLE SOURCES TO ENHANCE YOUR
+                        <span class="defaultcolor">WIKI PRESENCE</span>
+                        </h2>
+                        <p class="mb-4 pb-2">
+                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac.
+                        Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum
+                        velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet
+                        auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor
+                        id fringilla. Curabitur ridiculus lorem et enim facilisis lectus lectus id leo.
+                        Diam dignissim donec placerat adipiscing.
+                        </p>
 
-                        <img src="/assets/img/mix/myimageabout.webp" class="img-fluid" />
+                        <div class="custombenifits bgnone">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="benefit-box">
+                                        <div class="row align-items-center fflex">
+                                            <div class="rounded-circle custom mb-3">
+                                                <i class="ic-3"></i>
+                                            </div>
+                                            <div>
+                                                <h3>Lorem Ipsum Dolor</h3>
+                                                <p class="mb-0">
+                                                    Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
+                                                aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
+                                                praesent consectetur.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="benefit-box">
+                                        <div class="row align-items-center fflex">
+                                            <div class="rounded-circle custom mb-3">
+                                                <i class="ic-3"></i>
+                                            </div>
+                                            <div>
+                                                <h3>Lorem Ipsum Dolor</h3>
+                                                <p class="mb-0">
+                                                    Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
+                                                aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
+                                                praesent consectetur.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- row -->
+                        </div>
+                        <!-- custombenifits -->
+
                     </div>
+                    <!-- contentareaa -->
                 </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="custombenifits">
-                        <div class="benefit-box">
-
-                            <div class="row align-items-center fflex">
-                                <div class="col-lg-2 col-md-12">
-                                    <div class="rounded-circle custom">
-                                        <i class="ic-3"></i>
-                                    </div>
-                                </div>
-                                <div class="col-lg-10 col-md-12 text-left">
-                                    <h3>Our Mision</h3>
-                                    <p class="mb-0">To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide. To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="benefit-box">
-
-                            <div class="row align-items-center fflex">
-                                <div class="col-lg-2 col-md-12">
-                                    <div class="rounded-circle custom">
-                                        <i class="ic-3"></i>
-                                    </div>
-                                </div>
-                                <div class="col-lg-10 col-md-12 text-left">
-                                    <h3>Our Vision</h3>
-                                    <p class="mb-0">To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide. To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide.</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="benefit-box">
-
-                            <div class="row align-items-center fflex">
-                                <div class="col-lg-2 col-md-12">
-                                    <div class="rounded-circle custom">
-                                        <i class="ic-3"></i>
-                                    </div>
-                                </div>
-                                <div class="col-lg-10 col-md-12 text-left">
-                                    <h3>Our Value</h3>
-                                    <p class="mb-0">To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide. To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                <!-- col -->
 
 
-
-    <section class="stripe-3 bg-white pt-0">
-        <div class="container">
-            <div class="row d-flex align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="contentareaa">
 
-                        <img src="/assets/img/mix/about2.webp" class="img-fluid" />
+                        <img src="/assets/img/mix/services1.webp" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="custombenifits">
-
-                        <div class="contentareaa">
-                            <h2>USE RELIABLE SOURCES TO ENHANCE YOUR 
-<span class="defaultcolor">WIKI
-PRESENCE</span></h2>
-                            <p class="mb-4 pb-2">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor id fringilla. Curabitur ridiculus lorem et enim facilisis lectus lectus id leo. Diam dignissim donec placerat adipiscing.</p>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </section>
 
 
-                        </div>
+    <section class="boxesitems bg-white stripe-3 pt-0">
+        <div class="container">
 
+            <div class="row text-center">
+                <div class="text-center w-100">
+                    <h2 class="text-center">Content Writing & Editing</h2>
+                </div>
+
+            </div>
+            <div class="custombenifits bgnone mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
                         <div class="benefit-box">
-
                             <div class="row align-items-center fflex">
-                                <div class="col-lg-2 col-md-12">
-                                    <div class="rounded-circle custom">
-                                        <i class="ic-3"></i>
-                                    </div>
+                                <div class="rounded-circle custom mb-3">
+                                    <i class="ic-3"></i>
                                 </div>
-                                <div class="col-lg-10 col-md-12 text-left">
+                                <div>
                                     <h3>Lorem Ipsum Dolor</h3>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris.</p>
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
+                             aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
+                             praesent consectetur.
+                                    </p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-4 col-md-12">
+                        <div class="benefit-box">
+                            <div class="row align-items-center fflex">
+                                <div class="rounded-circle custom mb-3">
+                                    <i class="ic-3"></i>
+                                </div>
+                                <div>
+                                    <h3>Lorem Ipsum Dolor</h3>
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
+                             aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
+                             praesent consectetur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="benefit-box">
+                            <div class="row align-items-center fflex">
+                                <div class="rounded-circle custom mb-3">
+                                    <i class="ic-3"></i>
+                                </div>
+                                <div>
+                                    <h3>Lorem Ipsum Dolor</h3>
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
+                       aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
+                       praesent consectetur.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- row -->
             </div>
+            <!-- custombenifits -->
         </div>
     </section>
 
 
-    <section class="stripe-3 bg-white pt-0">
+    <section class="stripe-3 bg-white pb-5">
         <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-6 col-md-12">
+            <div class="row d-flex align-start-center justify-content-between">
+                <div class="col-lg-5 col-md-12">
                     <div class="contentareaa">
-
-                        <img src="/assets/img/mix/about3.webp" class="img-fluid" />
+                        <h2>Celebrating achievements</h2>
+                        <p class="mb-4 pb-2">
+                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="custombenifits benifitstwo">
 
-                        <div class="contentareaa">
-                            <h2>Why Choose USA Wiki
-Services?</h2>
-                            <p class="mb-4 pb-2">Delivering Accurate, Compliant, and Credible Wiki Solutions to Help Businesses, Brands, and Individuals Establish a Strong and Lasting Online Presence</p>
-
-
-                        </div>
 
                         <div class="benefit-box">
 
@@ -171,6 +204,25 @@ Services?</h2>
 
 
                         </div>
+
+
+                        <div class="benefit-box">
+
+                            <div class=" align-items-start fflex gap-4">
+                                <div class="">
+                                    <div class="rounded-circle custom">
+                                        <i class="ic-3"></i>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <h4>Lorem Ipsum Dolor</h4>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
 
                         <div class="benefit-box border-0">
 
@@ -195,8 +247,7 @@ Services?</h2>
     </section>
 
 
-
-        <section class="cta-sec" style="background-image: url('/assets/img/bg/cta-bg.png')">
+    <section class="cta-sec" style="background-image: url('/assets/img/bg/cta-bg.png')">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-8 col-lg-8">
@@ -213,8 +264,79 @@ Services?</h2>
         </div>
     </section>
 
+    <section class="stripe-3 bg-white leftboxnew">
+        <div class="container">
+            <div class="row fflex align-items-center">
+                <div class="col-lg-6 col-md-12">
+                         <img src="/assets/img/mix/services-last.webp" class="img-fluid " />
+                </div>
 
-    <section class="stripe-3 bg-white testimonail-sec">
+                <div class="col-lg-6 col-md-12">
+                        <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="custombenifits bgnone mt-5">
+    <div class="row">
+        <div class="col-lg-4 col-md-12">
+            <div class="benefit-box">
+                <div class="">
+                
+                    <div>
+                        <h3 class="mb-4">Lorem Ipsum Dolor</h3>
+                        <p class="mb-0">
+                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
+                 aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
+                 praesent consectetur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+            <div class="benefit-box">
+                <div class="">
+                  
+                    <div>
+                        <h3 class="mb-4">Lorem Ipsum Dolor</h3>
+                        <p class="mb-0">
+                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
+                 aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
+                 praesent consectetur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+            <div class="benefit-box">
+                <div class="">
+                  
+                    <div>
+                        <h3 class="mb-4">Lorem Ipsum Dolor</h3>
+                        <p class="mb-0">
+                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
+           aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
+           praesent consectetur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- row -->
+</div>
+        </div>
+    </section>
+
+
+
+        <section class="stripe-3 bg-white testimonail-sec pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7">
@@ -362,5 +484,6 @@ Services?</h2>
         </div>
     </section>
 </section>
+
 
 </asp:Content>
