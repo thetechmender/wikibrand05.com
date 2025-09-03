@@ -170,7 +170,7 @@
             </div>
 
             <div class="row mt-5">
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="comt-box">
                         <div class="comt-box-icon">
                             <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
@@ -182,7 +182,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="comt-box">
                         <div class="comt-box-icon">
                             <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
@@ -194,7 +194,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="comt-box">
                         <div class="comt-box-icon">
                             <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
@@ -206,7 +206,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="comt-box">
                         <div class="comt-box-icon">
                             <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
@@ -304,11 +304,11 @@
     </section>
 
 
-    <section class="stripe-3 bg-white">
+    <section class="stripe-3 bg-white mobileresponsive">
         <div class="container">
             <div class="row align-items-center mb-4">
                 <div class="col-xl-6 col-lg-6">
-                    <img src="/assets/img/mix/why-chose.png" class="img-fluid" />
+                    <img src="/assets/img/mix/why-chose.png" class="img-fluid mtcstm" />
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <h2 class="text-left text-uppercase">Why Choose Us for Your <span class="defaultcolor">Wikipedia  Journey?</span></h2>
@@ -478,6 +478,11 @@
                 </div>
                 <div class="col-xl-7 col-lg-7 col-sm-12">
                     <div class="custompaddingstopbottom">
+                            <div class="fflex mobileblock ">
+                                <div class="customiconss "><span class="ic-tick"></span> <p>24/7 Support</p></div>
+                                 <div class="customiconss"><span class="ic-tick"></span> <p>Page Monitoring</p></div>
+                                 <div class="customiconss"><span class="ic-tick"></span> <p>Expert Assistance</p></div>
+                            </div>
                            <h2 class="text-white">Secure Spot on  World’s Trusted Platform</h2>
    <p class="text-white">Secure your achievements and enhance your online credibility with a professionally crafted Wikipedia page. Our experts ensure every page is accurate, neutral, and fully compliant with Wikipedia’s strict guidelines. </p>
    <div class="mt-2">

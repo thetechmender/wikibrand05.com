@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-    @include fontCalcSize(50, 30);
+    @include fontCalcSize(50, 26);
     font-weight: 600;
     font-family: $secondaryFont;
  text-transform:uppercase;

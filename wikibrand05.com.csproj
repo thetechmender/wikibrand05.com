@@ -475,6 +475,7 @@
     <Content Include="assets\img\mix\about3.webp" />
     <Content Include="assets\img\mix\services1.webp" />
     <Content Include="assets\img\mix\services-last.webp" />
+    <Content Include="assets\img\mix\ticks.webp" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />

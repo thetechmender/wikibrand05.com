@@ -1,5 +1,5 @@
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="wikibrand05.com.Site_Mobile" %>
-<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+<%--<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>--%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,11 +38,11 @@
             <div class="container">
                 <div class="row align-items-center ">
                     <div class="col-lg-6 col-md-12">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="fflex justify-content-lg-end gap-3">
-                            <div class="iconstop"><a href="mailto:<%=ConfigurationManager.AppSettings["brandEmail"] %>"><i class="ic-1"></i><%=ConfigurationManager.AppSettings["brandEmail"] %></a></div>
+                        <div class="fflex justify-content-lg-end justify-content-md-center  justify-content-sm-center gap-3">
+                            <div class="iconstop mbmobile"><a href="mailto:<%=ConfigurationManager.AppSettings["brandEmail"] %>"><i class="ic-1"></i><%=ConfigurationManager.AppSettings["brandEmail"] %></a></div>
                             <div class="iconstop"><a href="mailto:<%=ConfigurationManager.AppSettings["brandTFN"] %>"><i class="ic-2"></i><%=ConfigurationManager.AppSettings["brandTFN"] %></a></div>
                         </div>
                     </div>
@@ -64,6 +64,11 @@
                                 <li><a href="/testimonials/"><span>Testimonials</span></a></li>
                                 <li><a href="/contact-us/"><span>Contact Us</span></a></li>
 
+                                  <div class="btn-box">
+      <a href="javascript:;" class="btn btn-black mr-2" data-bs-toggle="modal" data-bs-target="#leadspopup">Get a Quote</a>
+      <a href="javascript:;" class="btn btn-white  open-livechat">Live Chat</a>
+      
+  </div>
                             </ul>
 
                         </div>
@@ -76,11 +81,7 @@
                             <span></span>
                         </div>
                     </div>
-                    <div class="btn-box">
-                        <a href="javascript:;" class="btn btn-black mr-2" data-bs-toggle="modal" data-bs-target="#leadspopup">Get a Quote</a>
-                        <a href="javascript:;" class="btn btn-white  open-livechat">Live Chat</a>
-                        
-                    </div>
+                  
                 </div>
             </div>
             <div class="defaultOverlay js-defaultOverlay"></div>
@@ -88,7 +89,7 @@
     </section>
 
         <!-- Main Content -->
-        <main class="container my-3">
+        <main class="main-conainers">
             <asp:ContentPlaceHolder runat="server" ID="MainContent" />
         </main>
 
@@ -180,12 +181,31 @@
             </div>
         </footer>
         <!-- View Switcher -->
-        <div class="text-center my-3">
+   <%--     <div class="text-center my-3">
             <friendlyUrls:ViewSwitcher runat="server" />
-        </div>
+        </div>--%>
     </form>
 
     <!-- Scripts -->
-    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <%--<script src="~/Scripts/bootstrap.bundle.min.js"></script>--%>
+        <script type="text/javascript" src="/assets/js/vendors.js"></script>
+    <script type="text/javascript" src="/assets/js/functions.js"></script>
+    <script src="/assets/js/utils.js"></script>
+    <script src="/assets/js/intl-tel-input.js"></script>
+    <script>
+        $('.testimonial-holder').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            speed: 800,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+           
+          
+        });
+
+    </script>
 </body>
 </html>

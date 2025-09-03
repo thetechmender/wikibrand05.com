@@ -457,9 +457,12 @@
         </div>
     </section>
 
+
 <section class="mysectionbg bg-white">
             <section class="bg-sec">
         <div class="container">
+
+
             <div class="row cmt-bg " style="background-image: url('/assets/img/bg/bgoranges.webp')">
                 <div class="col-xl-5 col-lg-5 d-lg-block d-none">
                     <div class="comment-img">
@@ -471,6 +474,11 @@
                 </div>
                 <div class="col-xl-7 col-lg-7 col-sm-12">
                     <div class="custompaddingstopbottom">
+                            <div class="fflex mobileblock ">
+                                <div class="customiconss "><span class="ic-tick"></span> <p>24/7 Support</p></div>
+                                 <div class="customiconss"><span class="ic-tick"></span> <p>Page Monitoring</p></div>
+                                 <div class="customiconss"><span class="ic-tick"></span> <p>Expert Assistance</p></div>
+                            </div>
                            <h2 class="text-white">Secure Spot on  World’s Trusted Platform</h2>
    <p class="text-white">Secure your achievements and enhance your online credibility with a professionally crafted Wikipedia page. Our experts ensure every page is accurate, neutral, and fully compliant with Wikipedia’s strict guidelines. </p>
    <div class="mt-2">

@@ -33,7 +33,7 @@
                             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </div>
                         <div class="col-lg-6 col-md-12">
-                            <div class="fflex justify-content-lg-end gap-3">
+                            <div class="fflex justify-content-lg-end justify-content-md-center justify-content-sm-center gap-3">
                                 <div class="iconstop"><a href="mailto:<%=ConfigurationManager.AppSettings["brandEmail"] %>"><i class="ic-1"></i><%=ConfigurationManager.AppSettings["brandEmail"] %></a></div>
                                 <div class="iconstop"><a href="mailto:<%=ConfigurationManager.AppSettings["brandTFN"] %>"><i class="ic-2"></i><%=ConfigurationManager.AppSettings["brandTFN"] %></a></div>
                             </div>

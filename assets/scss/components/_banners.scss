@@ -1,124 +1,129 @@
 .bannerposition {
-     padding: 200px 0 80px 0;
- }
+    padding: 200px 0 80px 0;
 
 
-.banner-section {
-    h1 {
-        @include fontCalcSize(70, 50);
+    @media (max-width: 991px) {
+        padding: 220px 0 80px 0;
     }
-
-    .banner-inner-section {
-        padding: 50px 0 50px 0;
+}
 
 
+    .banner-section {
+        h1 {
+            @include fontCalcSize(70, 50);
+        }
 
-        .discount-badge-box {
-            display: flex;
-            align-items: center;
+        .banner-inner-section {
+            padding: 50px 0 50px 0;
 
-            h3 {
-                width: 115px;
-                height: 115px;
-                background: #f2601a;
-                color: #fff;
+
+
+            .discount-badge-box {
                 display: flex;
-                justify-content: center;
                 align-items: center;
-                border-radius: 50%;
-                @include fontCalcSize(50, 25);
-                font-family: $secondaryFont;
-            }
 
-            img {
-                margin: 0 0 0 -20px;
-                animation: rotation 15s infinite linear;
-            }
+                h3 {
+                    width: 115px;
+                    height: 115px;
+                    background: #f2601a;
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    @include fontCalcSize(50, 25);
+                    font-family: $secondaryFont;
+                }
 
-            @media(max-width: 991px) {
-                justify-content: center;
-                padding: 20px 0 20px 0;
-            }
-        }
+                img {
+                    margin: 0 0 0 -20px;
+                    animation: rotation 15s infinite linear;
+                }
 
-        .hero-banner-desc-box {
-
-            img.squarecube {
-                margin-bottom: 100px;
-                animation: float 6s ease-in-out infinite;
-            }
-
-            h2.rating-span {
-                font-size: 100px;
-                line-height: 80px;
-            }
-        }
-
-        .logo-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-            padding: 25px 0 25px 0;
-            border-top: 1px solid #FE7634;
-            border-bottom: 1px solid #FE7634;
-            margin-top: 50px;
-            height: 111px;
-
-
-            @media(max-width: 992px) {
-                height: 100%;
-            }
-
-            @media(max-width: 767px) {
-                flex-wrap: wrap;
-                gap: 20px;
-            }
-        }
-
-        @media(max-width: 1600px) {
-            padding: 50px 0 0 0;
-        }
-
-        @media(max-width: 991px) {
-            .counter-box, img.squarecube {
-                display: none;
+                @media(max-width: 991px) {
+                    justify-content: center;
+                    padding: 20px 0 20px 0;
+                }
             }
 
             .hero-banner-desc-box {
-                text-align: center !important;
-                padding: 40px 0 0 0;
+
+                img.squarecube {
+                    margin-bottom: 100px;
+                    animation: float 6s ease-in-out infinite;
+                }
+
+                h2.rating-span {
+                    font-size: 100px;
+                    line-height: 80px;
+                }
             }
 
-            .logo-row img {
-                max-width: 100px;
+            .logo-row {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                padding: 25px 0 25px 0;
+                border-top: 1px solid #FE7634;
+                border-bottom: 1px solid #FE7634;
+                margin-top: 50px;
+                height: 111px;
+
+
+                @media(max-width: 992px) {
+                    height: 100%;
+                }
+
+                @media(max-width: 767px) {
+                    flex-wrap: wrap;
+                    gap: 20px;
+                }
+            }
+
+            @media(max-width: 1600px) {
+                padding: 50px 0 0 0;
+            }
+
+            @media(max-width: 991px) {
+                .counter-box, img.squarecube {
+                    display: none;
+                }
+
+                .hero-banner-desc-box {
+                    text-align: center !important;
+                    padding: 40px 0 0 0;
+                }
+
+                .logo-row img {
+                    max-width: 100px;
+                }
+            }
+        }
+
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translatey(0px);
+            }
+
+            50% {
+                transform: translatey(-20px);
+            }
+
+            100% {
+                transform: translatey(0px);
             }
         }
     }
-
-    @keyframes rotation {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-    @keyframes float {
-        0% {
-            transform: translatey(0px);
-        }
-
-        50% {
-            transform: translatey(-20px);
-        }
-
-        100% {
-            transform: translatey(0px);
-        }
-    }
-}
 
 
 
@@ -481,19 +486,15 @@
 
 
 
-.mcustomheight {
-    @media(max-width:992px) {
-        width: 350px !important;
-        height: 260px !important;
+    .mcustomheight {
+        @media(max-width:992px) {
+            width: 350px !important;
+            height: 260px !important;
+        }
     }
-}
-
-
-
-//body.no-font h1 {
-//    @include fontCalcSize(20, 20);
-//}
-
-//body.font-loaded h1 {
-//    @include fontCalcSize(190, 50) ;
-//}
+    //body.no-font h1 {
+    //    @include fontCalcSize(20, 20);
+    //}
+    //body.font-loaded h1 {
+    //    @include fontCalcSize(190, 50) ;
+    //}
