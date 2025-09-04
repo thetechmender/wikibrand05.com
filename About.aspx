@@ -14,7 +14,7 @@
 
                         <div class="btn-box">
                             <a href="javascript:;" class="btn btn-primary mr-4 open-livechat">Live Chat</a>
-                            <a href="javascript:;" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#leadspopup">Create Your Wikipedia Page</a>
+                            <a href="javascript:;" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#leadspopup">Create My Wikipedia</a>
                         </div>
                     </div>
                 </div>
@@ -28,10 +28,9 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="contentareaa">
-                        <h2>What We Stand By
-Our Commitment to
-<span class="defaultcolor">Excellence</span></h2>
-                        <p class="mb-4 pb-2">Delivering Accurate, Compliant, and Credible Wiki Solutions to Help Businesses, Brands, and Individuals Establish a Strong and Lasting Online Presence</p>
+                        <h2>What Drives Us to Deliver
+<span class="defaultcolor">Trust</span> & <span class="defaultcolor">Credibility</span></h2>
+                        <p class="mb-4 pb-2">We are driven by integrity, excellence, and innovation to create Wikipedia solutions that build lasting trust and credibility.</p>
 
                         <img src="/assets/img/mix/myimageabout.webp" class="img-fluid" />
                     </div>
@@ -48,7 +47,7 @@ Our Commitment to
                                 </div>
                                 <div class="col-lg-10 col-md-12 text-left">
                                     <h3>Our Mision</h3>
-                                    <p class="mb-0">To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide. To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide.</p>
+                                    <p class="mb-0">Our mission is to help individuals and businesses gain recognition on Wikipedia. We create pages that are accurate, credible, and fully compliant with guidelines.</p>
                                 </div>
                             </div>
 
@@ -63,7 +62,7 @@ Our Commitment to
                                 </div>
                                 <div class="col-lg-10 col-md-12 text-left">
                                     <h3>Our Vision</h3>
-                                    <p class="mb-0">To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide. To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide.</p>
+                                    <p class="mb-0">We aim to be the leading Wikipedia service provider in the USA. Our vision is to give every brand and professional a trusted digital presence that lasts.</p>
                                 </div>
                             </div>
 
@@ -79,7 +78,7 @@ Our Commitment to
                                 </div>
                                 <div class="col-lg-10 col-md-12 text-left">
                                     <h3>Our Value</h3>
-                                    <p class="mb-0">To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide. To be the go-to provider for trusted, high-quality wiki publishing solutions worldwide.</p>
+                                    <p class="mb-0">We uphold integrity, excellence, credibility, commitment, and innovation. These core values ensure every Wikipedia project is built on trust, quality, and lasting impact.</p>
                                 </div>
                             </div>
 
@@ -105,10 +104,9 @@ Our Commitment to
                     <div class="custombenifits">
 
                         <div class="contentareaa">
-                            <h2>USE RELIABLE SOURCES TO ENHANCE YOUR 
-<span class="defaultcolor">WIKI
-PRESENCE</span></h2>
-                            <p class="mb-4 pb-2">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor id fringilla. Curabitur ridiculus lorem et enim facilisis lectus lectus id leo. Diam dignissim donec placerat adipiscing.</p>
+                            <h2>Why We Are Best Choice for your
+<span class="defaultcolor">WIKI PRESENCE?</span></h2>
+                            <p class="mb-4 pb-2">We know that building and maintaining a Wikipedia presence requires precision, credibility, and expertise. That’s why our team of skilled writers and editors ensures every page is thoroughly researched, backed by authentic references, and fully compliant with Wikipedia’s strict standards. With dedicated support, proven results, and a deep understanding of the platform, we provide individuals and businesses in the USA with a trusted partner to secure and protect their digital recognition.</p>
 
 
                         </div>
@@ -122,8 +120,8 @@ PRESENCE</span></h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-10 col-md-12 text-left">
-                                    <h3>Lorem Ipsum Dolor</h3>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris.</p>
+                                    <h3>Always Available for You</h3>
+                                    <p class="mb-0">We provide round-the-clock assistance to ensure your Wikipedia presence stays accurate, credible, and secure. No matter the time of day, our dedicated team is always here to guide & support you.</p>
                                 </div>
                             </div>
 
@@ -148,9 +146,8 @@ PRESENCE</span></h2>
                     <div class="custombenifits benifitstwo">
 
                         <div class="contentareaa">
-                            <h2>Why Choose USA Wiki
-Services?</h2>
-                            <p class="mb-4 pb-2">Delivering Accurate, Compliant, and Credible Wiki Solutions to Help Businesses, Brands, and Individuals Establish a Strong and Lasting Online Presence</p>
+                            <h2>How We Deliver Lasting Recognition</h2>
+                            <p class="mb-4 pb-2">At My Wiki Brand, we combine expertise and credibility to give your Wikipedia presence the recognition it deserves. Our approach is built on trust, research, and long-term success.</p>
 
 
                         </div>
@@ -164,8 +161,8 @@ Services?</h2>
                                     </div>
                                 </div>
                                 <div class="text-left">
-                                    <h4>Lorem Ipsum Dolor</h4>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at.</p>
+                                    <h4>Proven Expertise</h4>
+                                    <p class="mb-0">Our team is made up of seasoned writers and editors with in-depth knowledge of Wikipedia’s rules, ensuring your page is accurate, compliant, and built to last.</p>
                                 </div>
                             </div>
 
@@ -181,8 +178,8 @@ Services?</h2>
                                     </div>
                                 </div>
                                 <div class="text-left">
-                                    <h4>Lorem Ipsum Dolor</h4>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at.</p>
+                                    <h4>Authentic Content</h4>
+                                    <p class="mb-0">Every article we create is thoroughly researched and supported by credible, verifiable sources to establish trust and enhance your digital reputation.</p>
                                 </div>
                             </div>
 
@@ -200,7 +197,7 @@ Services?</h2>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-8 col-lg-8">
-                    <h2 class="text-white mb-3">Take the First Step Toward Your Wikipedia Presence</h2>
+                    <h2 class="text-white mb-3">Take the First Step Toward Your Wikipedia Presence </h2>
                     <p class="text-white mb-2">Start building a credible and lasting digital identity with our expert Wikipedia services today. From page creation to long-term updates, our team ensures your profile reflects accuracy, authenticity, and global recognition.</p>
                     <div class="mt-3">
                         <a href="javascript:;" class="btn btn-primary open-livechat">Create My Wikipedia</a>
@@ -221,37 +218,50 @@ Services?</h2>
                     <div class="testimonail-box">
                         <h2>Our Satisfied Clients</h2>
 
-                        <div class="testimonial-holder">
-                            <!--Item 1 -->
-                            <div class="testimonial-item">
-                                <div class="testimonial-item-head">
-                                    <span>Alexander White</span>
-                                    <p class="mt-3">Entrepreneur</p>
-                                </div>
+               <div class="testimonial-holder">
+       <!--Item 1 -->
+       <div class="testimonial-item">
+           <div class="testimonial-item-head">
+               <span>Alexander White</span>
+               <p class="mt-3">Entrepreneur</p>
+           </div>
 
-                                <p>Working with My Wiki Brand was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
-                                <div class="star">
-                                    <img src="/assets/img/mix/stars.png" class="img-fluid " />
-                                </div>
-                            </div>
+           <p>Working with My Wiki Brand was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
+           <div class="star">
+               <img src="/assets/img/mix/stars.png" class="img-fluid " />
+           </div>
+       </div>
 
-                            <!--Item 1 -->
+       <!--Item 1 -->
 
-                            <!--Item 2 -->
-                            <div class="testimonial-item">
-                                <div class="testimonial-item-head">
-                                    <span>Alexander White</span>
-                                    <p class="mt-3">Entrepreneur</p>
-                                </div>
+       <!--Item 2 -->
+       <div class="testimonial-item">
+           <div class="testimonial-item-head">
+               <span>Evelyn Young</span>
+               <p class="mt-3">Author</p>
+           </div>
 
-                                <p>Working with My Wiki Brand was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
-                                <div class="star">
-                                    <img src="/assets/img/mix/stars.png" class="img-fluid " />
-                                </div>
-                            </div>
+           <p>I couldn’t be happier with the service. The team meticulously researched and crafted my Wikipedia page, highlighting my achievements accurately while maintaining a neutral tone. Their guidance and support throughout the process made everything stress-free and efficient.</p>
+           <div class="star">
+               <img src="/assets/img/mix/stars.png" class="img-fluid " />
+           </div>
+       </div>
 
-                            <!--Item 2 -->
-                        </div>
+       
+       <!--Item 3 -->
+       <div class="testimonial-item">
+           <div class="testimonial-item-head">
+               <span>Abigail Baker</span>
+               <p class="mt-3">Startup Founder</p>
+           </div>
+
+           <p>The expertise of My Wiki Brand is unmatched. They not only created my Wikipedia profile but also ensured it met all notability and compliance requirements. Their ongoing monitoring and updates give me peace of mind knowing my page stays accurate and professional.</p>
+           <div class="star">
+               <img src="/assets/img/mix/stars.png" class="img-fluid " />
+           </div>
+       </div>
+       <!--Item 2 -->
+   </div>
                         <div class="mt-5">
                             <a href="javascript:;" class="btn btn-primary">Read More Reviews</a>
                         </div>
@@ -265,7 +275,6 @@ Services?</h2>
             </div>
         </div>
     </section>
-
     <section class="stripe-2 bg-white">
         <div class="container">
             <h2 class="text-center">Got Questions? We’ve GOt Anwers.</h2>
@@ -369,5 +378,7 @@ Services?</h2>
         </div>
     </section>
 </section>
+
+
 
 </asp:Content>

@@ -28,16 +28,11 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="contentareaa">
-                        <h2>USE RELIABLE SOURCES TO ENHANCE YOUR
-                        <span class="defaultcolor">WIKI PRESENCE</span>
+                        <h2>Build Credibility with
+                        <span class="defaultcolor">Expert Wikipedia Services</span>
                         </h2>
                         <p class="mb-4 pb-2">
-                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac.
-                        Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum
-                        velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet
-                        auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor
-                        id fringilla. Curabitur ridiculus lorem et enim facilisis lectus lectus id leo.
-                        Diam dignissim donec placerat adipiscing.
+                           we specialize in creating, editing, and maintaining professional Wikipedia pages that showcase your achievements and strengthen your digital footprint. Our team of experienced writers and editors carefully follows Wikipedia’s strict guidelines, ensuring every article is thoroughly researched, accurately written, and backed with credible references. We go beyond simple page creation — we provide ongoing monitoring and updates to keep your presence relevant and secure. 
                         </p>
 
                         <div class="custombenifits bgnone">
@@ -49,11 +44,9 @@
                                                 <i class="ic-3"></i>
                                             </div>
                                             <div>
-                                                <h3>Lorem Ipsum Dolor</h3>
+                                                <h3>Wikipedia Page Creation</h3>
                                                 <p class="mb-0">
-                                                    Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
-                                                aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
-                                                praesent consectetur.
+                                                    We create professionally crafted Wikipedia pages that are fully compliant with guidelines and backed by authentic, verifiable sources. 
                                                 </p>
                                             </div>
                                         </div>
@@ -67,11 +60,9 @@
                                                 <i class="ic-3"></i>
                                             </div>
                                             <div>
-                                                <h3>Lorem Ipsum Dolor</h3>
+                                                <h3>Page Editing & Updates</h3>
                                                 <p class="mb-0">
-                                                    Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
-                                                aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
-                                                praesent consectetur.
+                                                  Our experts keep your page accurate and relevant by making precise edits, adding new information, and ensuring it always aligns with Wikipedia’s standards.
                                                 </p>
                                             </div>
                                         </div>
@@ -106,7 +97,8 @@
 
             <div class="row text-center">
                 <div class="text-center w-100">
-                    <h2 class="text-center">Content Writing & Editing</h2>
+                    <h2 class="text-center">A Seamless Route to Your Wikipedia Presence</h2>
+                    <p>Building a Wikipedia profile can feel overwhelming — but with My Wiki Brand, the journey becomes effortless. Our specialists take care of research, drafting, approval, and ongoing management, ensuring everything stays smooth, professional, and policy-compliant.</p>
                 </div>
 
             </div>
@@ -119,11 +111,9 @@
                                     <i class="ic-3"></i>
                                 </div>
                                 <div>
-                                    <h3>Lorem Ipsum Dolor</h3>
+                                    <h3>Complete Page Development</h3>
                                     <p class="mb-0">
-                                        Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
-                             aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
-                             praesent consectetur.
+                                       From assessing eligibility to drafting and publishing, we manage every detail of your Wikipedia page. Our team ensures a seamless process that delivers a polished and professional outcome.
                                     </p>
                                 </div>
                             </div>
@@ -137,11 +127,9 @@
                                     <i class="ic-3"></i>
                                 </div>
                                 <div>
-                                    <h3>Lorem Ipsum Dolor</h3>
+                                    <h3>Authentic, Policy-Safe Content</h3>
                                     <p class="mb-0">
-                                        Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
-                             aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
-                             praesent consectetur.
+                                       Each article is written in a neutral tone and supported by credible third-party references. We guarantee compliance with Wikipedia’s editorial rules for long-term credibility.
                                     </p>
                                 </div>
                             </div>
@@ -155,11 +143,9 @@
                                     <i class="ic-3"></i>
                                 </div>
                                 <div>
-                                    <h3>Lorem Ipsum Dolor</h3>
+                                    <h3>Continuous Care & Maintenance</h3>
                                     <p class="mb-0">
-                                        Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
-                       aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
-                       praesent consectetur.
+                                       After your page is live, we provide regular monitoring and timely updates. Our support keeps your profile accurate, secure, and consistently relevant.
                                     </p>
                                 </div>
                             </div>
@@ -178,9 +164,9 @@
             <div class="row d-flex align-start-center justify-content-between">
                 <div class="col-lg-5 col-md-12">
                     <div class="contentareaa">
-                        <h2>Celebrating achievements</h2>
+                        <h2>Establish Your Presence with Wikipedia</h2>
                         <p class="mb-4 pb-2">
-                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie.
+                            Showcase your achievements on one of the world’s most trusted platforms. With My Wiki Brand, we design pages that reflect your success while following Wikipedia’s rigorous eligibility and content policies.
                         </p>
                     </div>
                 </div>
@@ -197,8 +183,8 @@
                                     </div>
                                 </div>
                                 <div class="text-left">
-                                    <h4>Lorem Ipsum Dolor</h4>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at.</p>
+                                    <h4>Leaders & Experts</h4>
+                                    <p class="mb-0">We help leaders and professionals showcase their journey with accuracy and authority. A well-crafted Wikipedia page strengthens credibility and positions you as a trusted voice in your field.</p>
                                 </div>
                             </div>
 
@@ -215,8 +201,8 @@
                                     </div>
                                 </div>
                                 <div class="text-left">
-                                    <h4>Lorem Ipsum Dolor</h4>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at.</p>
+                                    <h4>Companies & Organizations</h4>
+                                    <p class="mb-0">Every successful business has a story worth sharing, and we make sure yours is told the right way. By showcasing your achievements, milestones, and reputation on Wikipedia, we help strengthen your credibility, and build lasting trust with a global audience.</p>
                                 </div>
                             </div>
 
@@ -233,8 +219,8 @@
                                     </div>
                                 </div>
                                 <div class="text-left">
-                                    <h4>Lorem Ipsum Dolor</h4>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at.</p>
+                                    <h4>Writers, Innovators & Performers</h4>
+                                    <p class="mb-0">Creative minds deserve recognition that goes beyond borders. Whether you’re an author, artist, or innovator, we craft Wikipedia pages that highlight your talent, amplify your visibility, and give your work the long-term recognition it deserves in the digital world.</p>
                                 </div>
                             </div>
 
@@ -251,7 +237,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-8 col-lg-8">
-                    <h2 class="text-white mb-3">Take the First Step Toward Your Wikipedia Presence</h2>
+                    <h2 class="text-white mb-3">Take the First Step Toward Your Wikipedia Presence </h2>
                     <p class="text-white mb-2">Start building a credible and lasting digital identity with our expert Wikipedia services today. From page creation to long-term updates, our team ensures your profile reflects accuracy, authenticity, and global recognition.</p>
                     <div class="mt-3">
                         <a href="javascript:;" class="btn btn-primary open-livechat">Create My Wikipedia</a>
@@ -272,8 +258,8 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12">
-                        <h2>Lorem ipsum dolor sit amet, consectetur</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <h2>Our Streamlined Page Publishing Process</h2>
+                    <p>We simplify the journey of getting your Wikipedia page published. From the initial research and eligibility check to drafting well-structured, compliant content and finally submitting it for approval, our team manages every step with precision. Even after your page goes live, we provide ongoing monitoring and updates to ensure it remains accurate, credible, and fully aligned with Wikipedia’s standards.</p>
                 </div>
             </div>
         </div>
@@ -286,11 +272,9 @@
                 <div class="">
                 
                     <div>
-                        <h3 class="mb-4">Lorem Ipsum Dolor</h3>
+                        <h3 class="mb-4">Research & Eligibility Check</h3>
                         <p class="mb-0">
-                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
-                 aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
-                 praesent consectetur.
+                           We begin by thoroughly assessing your profile or brand to ensure it meets Wikipedia’s notability standards. Our experts gather credible, third-party sources to build a strong foundation for your page.
                         </p>
                     </div>
                 </div>
@@ -302,11 +286,9 @@
                 <div class="">
                   
                     <div>
-                        <h3 class="mb-4">Lorem Ipsum Dolor</h3>
+                        <h3 class="mb-4">Drafting & Compliance Writing</h3>
                         <p class="mb-0">
-                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
-                 aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
-                 praesent consectetur.
+                           Our writers craft your Wikipedia page with precision, using a neutral tone and verifiable references. Every detail is structured to comply with Wikipedia’s strict editorial guidelines.
                         </p>
                     </div>
                 </div>
@@ -318,11 +300,9 @@
                 <div class="">
                   
                     <div>
-                        <h3 class="mb-4">Lorem Ipsum Dolor</h3>
+                        <h3 class="mb-4">Submission & Ongoing Support</h3>
                         <p class="mb-0">
-                            Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam
-           aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus
-           praesent consectetur.
+               Once ready, we submit the page for publication and monitor its status. After it goes live, we provide continuous support to keep the content accurate, updated, and protected.
                         </p>
                     </div>
                 </div>
@@ -335,60 +315,7 @@
     </section>
 
 
-
-        <section class="stripe-3 bg-white testimonail-sec pt-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7 col-lg-7">
-                    <div class="testimonail-box">
-                        <h2>Our Satisfied Clients</h2>
-
-                        <div class="testimonial-holder">
-                            <!--Item 1 -->
-                            <div class="testimonial-item">
-                                <div class="testimonial-item-head">
-                                    <span>Alexander White</span>
-                                    <p class="mt-3">Entrepreneur</p>
-                                </div>
-
-                                <p>Working with My Wiki Brand was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
-                                <div class="star">
-                                    <img src="/assets/img/mix/stars.png" class="img-fluid " />
-                                </div>
-                            </div>
-
-                            <!--Item 1 -->
-
-                            <!--Item 2 -->
-                            <div class="testimonial-item">
-                                <div class="testimonial-item-head">
-                                    <span>Alexander White</span>
-                                    <p class="mt-3">Entrepreneur</p>
-                                </div>
-
-                                <p>Working with My Wiki Brand was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
-                                <div class="star">
-                                    <img src="/assets/img/mix/stars.png" class="img-fluid " />
-                                </div>
-                            </div>
-
-                            <!--Item 2 -->
-                        </div>
-                        <div class="mt-5">
-                            <a href="javascript:;" class="btn btn-primary">Read More Reviews</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-5">
-                    <div class="testi-right-img">
-                        <img src="/assets/img/mix/testimonial-img.png" class="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="stripe-2 bg-white">
+        <section class="stripe-2 bg-white">
         <div class="container">
             <h2 class="text-center">Got Questions? We’ve GOt Anwers.</h2>
         </div>
@@ -457,7 +384,6 @@
         </div>
     </section>
 
-
 <section class="mysectionbg bg-white">
             <section class="bg-sec">
         <div class="container">
@@ -492,6 +418,7 @@
         </div>
     </section>
 </section>
+
 
 
 </asp:Content>

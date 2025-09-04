@@ -16,7 +16,7 @@
 
                         <div class="btn-box">
                             <a href="javascript:;" class="btn btn-primary mr-4 open-livechat">Live Chat</a>
-                            <a href="javascript:;" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#leadspopup">Create Your Wikipedia Page</a>
+                            <a href="javascript:;" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#leadspopup">Create My Wikipedia</a>
                         </div>
                     </div>
                 </div>
@@ -30,8 +30,8 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="contentareaa">
-                        <h2>Send Us a Message</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                        <h2>Get in Touch</h2>
+                        <p>Fill out the form below, and one of our experts will get back to you within 24 hours. We’re committed to providing quick, transparent, and reliable support.</p>
                     </div>
                     <hr class="mt-5 mb-5" />
 
@@ -153,72 +153,72 @@
 
 
 
-        <section class="stripe-3 bg-white">
-        <div class="container">
-            <h2 class="text-center">Got Questions? We’ve GOt Anwers.</h2>
+    <section class="stripe-3 bg-white">
+    <div class="container">
+        <h2 class="text-center">Got Questions? We’ve GOt Anwers.</h2>
+    </div>
+    <div class="container mt-5">
+        <div class="boxgotquestion">
+            <div class="row fflex align-content-center">
+                <div class="col-lg-3 col-md-12">
+                    <h3>How does My Wiki Brand help create a Wikipedia page?</h3>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="justify-content-center fflex">
+                        <div class="col-lg-11 col-md-12">
+                            <p class="mb-0">We guide you through the entire process, from in-depth research and drafting to publishing, ensuring your page is accurate, neutral, and fully compliant with Wikipedia’s strict guidelines. Our team highlights your achievements in a professional manner to maximize credibility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="container mt-5">
-            <div class="boxgotquestion">
-                <div class="row fflex align-content-center">
-                    <div class="col-lg-3 col-md-12">
-                        <h3>How does My Wiki Brand help create a Wikipedia page?</h3>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <div class="justify-content-center fflex">
-                            <div class="col-lg-11 col-md-12">
-                                <p class="mb-0">We guide you through the entire process, from in-depth research and drafting to publishing, ensuring your page is accurate, neutral, and fully compliant with Wikipedia’s strict guidelines. Our team highlights your achievements in a professional manner to maximize credibility.</p>
-                            </div>
+
+        <div class="boxgotquestion">
+            <div class="row fflex align-content-center">
+                <div class="col-lg-3 col-md-12">
+                    <h3>How can My Wiki Brand improve my page’s credibility?</h3>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="justify-content-center fflex">
+                        <div class="col-lg-11 col-md-12">
+                            <p class="mb-0">Our experts use only verified, reliable sources and craft content in a neutral, encyclopedic tone. This approach enhances your profile’s trustworthiness, increases visibility, and ensures your page is respected by Wikipedia’s community and readers.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="boxgotquestion">
-                <div class="row fflex align-content-center">
-                    <div class="col-lg-3 col-md-12">
-                        <h3>How can My Wiki Brand improve my page’s credibility?</h3>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <div class="justify-content-center fflex">
-                            <div class="col-lg-11 col-md-12">
-                                <p class="mb-0">Our experts use only verified, reliable sources and craft content in a neutral, encyclopedic tone. This approach enhances your profile’s trustworthiness, increases visibility, and ensures your page is respected by Wikipedia’s community and readers.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="boxgotquestion">
-                <div class="row fflex align-content-center">
-                    <div class="col-lg-3 col-md-12">
-                        <h3>How does My Wiki Brand maintain existing pages?</h3>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <div class="justify-content-center fflex">
-                            <div class="col-lg-11 col-md-12">
-                                <p class="mb-0">We provide ongoing support, including regular monitoring, timely updates, and necessary edits. This keeps your page accurate, compliant with Wikipedia policies, and protected against unauthorized changes or content disputes.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="boxgotquestion">
-                <div class="row fflex align-content-center">
-                    <div class="col-lg-3 col-md-12">
-                        <h3>Can My Wiki Brand help reach a global audience?</h3>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <div class="justify-content-center fflex">
-                            <div class="col-lg-11 col-md-12">
-                                <p class="mb-0">Absolutely. We offer multilingual translations and localization services so your Wikipedia profile can be read and trusted by audiences worldwide, expanding your reach while maintaining accuracy and authenticity.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-    
         </div>
-    </section>
+
+        <div class="boxgotquestion">
+            <div class="row fflex align-content-center">
+                <div class="col-lg-3 col-md-12">
+                    <h3>How does My Wiki Brand maintain existing pages?</h3>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="justify-content-center fflex">
+                        <div class="col-lg-11 col-md-12">
+                            <p class="mb-0">We provide ongoing support, including regular monitoring, timely updates, and necessary edits. This keeps your page accurate, compliant with Wikipedia policies, and protected against unauthorized changes or content disputes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="boxgotquestion">
+            <div class="row fflex align-content-center">
+                <div class="col-lg-3 col-md-12">
+                    <h3>Can My Wiki Brand help reach a global audience?</h3>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="justify-content-center fflex">
+                        <div class="col-lg-11 col-md-12">
+                            <p class="mb-0">Absolutely. We offer multilingual translations and localization services so your Wikipedia profile can be read and trusted by audiences worldwide, expanding your reach while maintaining accuracy and authenticity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
 </asp:Content>

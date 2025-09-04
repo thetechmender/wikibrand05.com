@@ -7,16 +7,16 @@
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="contentarea">
-                        <h1>Lorem ipsum dolor sit ame  conseet adng</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <h1>Build Your Reputation with Wikipedia Presence</h1>
+                        <p>At My Wiki Brand, we help you create a trusted and lasting presence on the world’s most visited encyclopedia. Our team ensures your profile meets Wikipedia’s strict standards while highlighting your achievements.</p>
                         <ul>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>consectetur adipiscing elit, sed</li>
-                            <li>tempor incididunt</li>
-                            <li>ut labore et dolore magna aliqu</li>
+                            <li>Professional Wikipedia page creation</li>
+                            <li>Reliable research & authentic sources</li>
+                            <li>Ongoing monitoring and updates</li>
+                            <li>Trusted services across the USA</li>
                         </ul>
                         <div class="btn-box">
-                            <a href="javascript:;" class="btn btn-primary mr-4 open-livechat">Live Chat</a>
+                            <a href="javascript:;" class="btn btn-primary mr-4 open-livechat">Create My Wikipedia</a>
                             <%--         <a href="javascript:;" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#leadspopup">Get a Quote</a>--%>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                             <span>Reserve Your Discount</span>
                         </div>
                         <div class="formstylebox">
-                            <h2>Ready to Protect Your</h2>
+                            <h2>Start Wiki Journey Now</h2>
                             <%-- <input type="text" class="form-control" placeholder="Enter Your Name" />--%>
                             <asp:TextBox ID="txtcnsite100" CssClass="form-control" runat="server" placeholder="Enter Your Name"></asp:TextBox>
                             <asp:RequiredFieldValidator ID="RequiredFieldValidatorName" runat="server" ControlToValidate="txtcnsite100" ErrorMessage="*" ValidationGroup="A" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
@@ -88,38 +88,38 @@
 
     <section class="stripe-3 main-benefit-section">
         <div class="container">
-            <h2 class="text-center">Benefits of Hiring <span class="defaultcolor">Wikipedia</span> Experts</h2>
-            <p class="text-center mt-4">Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts ensure accuracy, neutrality, and long-term page stability for your brand or profile.</p>
+            <h2 class="text-center">Advantages of Working With  <span class="defaultcolor">My Wiki Brand?</span> </h2>
+            <p class="text-center mt-4">Boost your brand’s authority and recognition with expert Wikipedia services designed to meet platform rules. Our team ensures accuracy, neutrality, and long-term visibility for your page.</p>
             <div class="btn-box text-center mt-5">
-                <a href="javascript:;" class="btn btn-primary open-livechat">Live Chat</a>
+                <a href="javascript:;" class="btn btn-primary open-livechat">Create My Wikipedia</a>
             </div>
             <div class="row mt-5">
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
                         <i class="ic-3"></i>
-                        <h3>Thorough Research & Data Collection</h3>
-                        <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-12">
-                    <div class="benefit-box">
-                        <i class="ic-3"></i>
-                        <h3>Professional Page Creation</h3>
-                        <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-12">
-                    <div class="benefit-box">
-                        <i class="ic-3"></i>
-                        <h3>Ongoing Page Management</h3>
-                        <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-12">
-                    <div class="benefit-box">
-                        <i class="ic-3"></i>
                         <h3>Reputation Enhancement</h3>
-                        <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
+                        <p>A Wikipedia page builds credibility and trust, making your brand appear authentic, reliable, and respected online.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="benefit-box">
+                        <i class="ic-3"></i>
+                        <h3>Increased Online Visibility</h3>
+                        <p>Gain instant recognition on the world’s most visited knowledge platform, boosting your visibility, authority, and credibility.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="benefit-box">
+                        <i class="ic-3"></i>
+                        <h3>Compliance With Guidelines</h3>
+                        <p>We follow strict Wikipedia rules, ensuring accurate, neutral, and verified content that keeps your page safe and approved.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="benefit-box">
+                        <i class="ic-3"></i>
+                        <h3>Page Management & Monitoring</h3>
+                        <p>Regular monitoring and updates protect your page, ensuring long-term stability, accuracy, and credibility for your profile.</p>
                     </div>
                 </div>
             </div>
@@ -131,11 +131,12 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
-                    <h2 class="text-left">Our Commitment to Your <span class="defaultcolor">Comfort</span></h2>
-                    <p class="text-left">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor id fringilla. Curabitur ridiculus lorem et enim facilisis lectus lectus id leo. Diam dignissim donec placerat adipiscing.</p>
-                    <p class="text-left">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor id fringilla.</p>
+                    <h2 class="text-left">Comprehensive  <span class="defaultcolor">Wikipedia Services</span></h2>
+                    <p class="text-left">At My Wiki Brand, we specialize in delivering end-to-end Wikipedia services designed to help brands, professionals, and organizations build authority and recognition. From initial research and drafting to page publishing and ongoing maintenance, our experts handle every detail with precision. We understand that Wikipedia is more than just an online encyclopedia — it’s a platform where credibility begins. That’s why we focus on creating content that highlights your achievements while meeting strict platform standards.</p>
+                    <p class="text-left">
+Our experienced team of writers and editors ensures your page is built on accuracy, neutrality, and verified sources. Beyond creation, we offer consistent monitoring and protection to safeguard your presence from unnecessary edits or removals. With My Wiki Brand, you don’t just get a Wikipedia page — you gain a long-term digital asset that strengthens your reputation</p>
                     <div class="btn-box text-left">
-                        <a href="javascript:;" class="btn btn-primary open-livechat">Live Chat</a>
+                        <a href="javascript:;" class="btn btn-primary open-livechat">Create My Wikipedia</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
@@ -160,11 +161,12 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-sm-12">
-                    <h2 class="text-white">Our Commitment to Your Comfort</h2>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor id fringilla. Curabitur ridiculus lorem et enim facilisis lectus lectus id leo. Diam dignissim donec placerat adipiscing.</p>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor id fringilla.</p>
+                    <h2 class="text-white">Ready to Go Live on Wikipedia?</h2>
+                    <p class="text-white">Your journey, achievements, and brand deserve a place on the world’s most trusted knowledge platform. At My Wiki Brand, we make it possible by delivering professional Wikipedia services that are accurate, credible, and fully compliant with platform guidelines. From in-depth research and drafting to publishing and ongoing updates, we handle every step of the process with care, ensuring your profile stands out and remains reliable for years to come.</p>
+                    <p class="text-white">
+Whether you’re a business, entrepreneur, or public figure, our experts handle everything from research to publishing and ongoing updates. Don’t miss the chance to strengthen your reputation and boost your visibility — take the first step today and make your mark on Wikipedia.</p>
                     <div class="mt-2">
-                        <a href="javascript:;" class="btn btn-white  open-livechat">Live Chat</a>
+                        <a href="javascript:;" class="btn btn-white  open-livechat">Create My Wikipedia</a>
                     </div>
                 </div>
             </div>
@@ -176,8 +178,8 @@
                             <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
                         </div>
                         <div class="comt-box-text">
-                            <span>15+</span>
-                            <p>Years Of Experience</p>
+                            <span>4k+</span>
+                            <p>Wiki Projects</p>
                         </div>
                     </div>
                 </div>
@@ -188,8 +190,8 @@
                             <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
                         </div>
                         <div class="comt-box-text">
-                            <span>15+</span>
-                            <p>Years Of Experience</p>
+                            <span>79%</span>
+                            <p>Active Clients</p>
                         </div>
                     </div>
                 </div>
@@ -200,8 +202,8 @@
                             <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
                         </div>
                         <div class="comt-box-text">
-                            <span>15+</span>
-                            <p>Years Of Experience</p>
+                            <span>75+</span>
+                            <p>Wikipedia Experts</p>
                         </div>
                     </div>
                 </div>
@@ -230,9 +232,9 @@
             <div class="row align-items-center mb-4">
                 <div class="col-xl-6 col-lg-6">
                     <h2 class="text-left text-uppercase">Our Services TO ENHANCE YOUR<span class="defaultcolor">WIKI PRESENCE</span></h2>
-                    <p class="text-left">Lorem ipsum dolor sit amet consectetur. Fringilla at aliquam aliquet at ac. Adipiscing molestie arcu augue mus. Faucibus praesent consectetur porta interdum velit nisi mauris. Feugiat sollicitudin sit quisque odio. Sed libero mi imperdiet auctor molestie cursus praesent nisi. Ullamcorper tristique ullamcorper in porttitor id fringilla. Curabitur ridiculus lorem et enim facilisis lectus lectus id leo. Diam dignissim donec placerat adipiscing.</p>
+                    <p class="text-left">At My Wiki Brand, we deliver end-to-end Wikipedia services that strengthen your online authority and credibility. Our experts handle everything from page creation to updates, ensuring your profile is accurate, compliant, and long-lasting. With reliable research, authentic citations, and professional writing, we craft pages that truly reflect your achievements. </p>
                     <div class="mt-2">
-                        <a href="javascript:;" class="btn btn-primary open-livechat">Live Chat</a>
+                        <a href="javascript:;" class="btn btn-primary open-livechat">Create My Wikipedia</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
@@ -248,9 +250,8 @@
                             <label>01</label>
                         </div>
                         <div class="crt-box-text">
-                            <span>Wiki Creation &<br />
-                                Setup</span>
-                            <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
+                            <span>Wiki Creation & <br /> Setup</span>
+                            <p>We professionally create structured Wikipedia pages, ensuring accuracy, credibility, and lasting impact.</p>
                         </div>
                     </div>
                 </div>
@@ -265,7 +266,7 @@
                         </div>
                         <div class="crt-box-text">
                             <span>Content Writing & Editing</span>
-                            <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
+                            <p>Our expert writers deliver neutral, engaging, and verifiable content that strengthens online reputation.</p>
                         </div>
                     </div>
                 </div>
@@ -279,7 +280,7 @@
                         </div>
                         <div class="crt-box-text">
                             <span>Compliance & Notability</span>
-                            <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
+                            <p>We guarantee compliance with Wikipedia policies, ensuring approval through reliable references.</p>
                         </div>
                     </div>
                 </div>
@@ -293,7 +294,7 @@
                         </div>
                         <div class="crt-box-text">
                             <span>Maintenance, Updates & Translation</span>
-                            <p>Gain credibility and visibility with professionally crafted Wikipedia pages tailored to meet platform guidelines. Our experts</p>
+                            <p>Continuous monitoring, regular updates, and multilingual translations keep profiles globally visible.</p>
                         </div>
                     </div>
                 </div>
@@ -327,7 +328,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-8 col-lg-8">
-                    <h2 class="text-white mb-3">Take the First Step Toward Your Wikipedia Presence</h2>
+                    <h2 class="text-white mb-3">Take the First Step Toward Your Wikipedia Presence </h2>
                     <p class="text-white mb-2">Start building a credible and lasting digital identity with our expert Wikipedia services today. From page creation to long-term updates, our team ensures your profile reflects accuracy, authenticity, and global recognition.</p>
                     <div class="mt-3">
                         <a href="javascript:;" class="btn btn-primary open-livechat">Create My Wikipedia</a>
@@ -367,16 +368,29 @@
                             <!--Item 2 -->
                             <div class="testimonial-item">
                                 <div class="testimonial-item-head">
-                                    <span>Alexander White</span>
-                                    <p class="mt-3">Entrepreneur</p>
+                                    <span>Evelyn Young</span>
+                                    <p class="mt-3">Author</p>
                                 </div>
 
-                                <p>Working with My Wiki Brand was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
+                                <p>I couldn’t be happier with the service. The team meticulously researched and crafted my Wikipedia page, highlighting my achievements accurately while maintaining a neutral tone. Their guidance and support throughout the process made everything stress-free and efficient.</p>
                                 <div class="star">
                                     <img src="/assets/img/mix/stars.png" class="img-fluid " />
                                 </div>
                             </div>
 
+                            
+                            <!--Item 3 -->
+                            <div class="testimonial-item">
+                                <div class="testimonial-item-head">
+                                    <span>Abigail Baker</span>
+                                    <p class="mt-3">Startup Founder</p>
+                                </div>
+
+                                <p>The expertise of My Wiki Brand is unmatched. They not only created my Wikipedia profile but also ensured it met all notability and compliance requirements. Their ongoing monitoring and updates give me peace of mind knowing my page stays accurate and professional.</p>
+                                <div class="star">
+                                    <img src="/assets/img/mix/stars.png" class="img-fluid " />
+                                </div>
+                            </div>
                             <!--Item 2 -->
                         </div>
                         <div class="mt-5">
