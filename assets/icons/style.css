@@ -1,45 +1,150 @@
 @font-face {
-  font-family: 'xicons';
-  src:  url('fonts/xicons.eot?a6273a');
-  src:  url('fonts/xicons.eot?a6273a#iefix') format('embedded-opentype'),
-    url('fonts/xicons.ttf?a6273a') format('truetype'),
-    url('fonts/xicons.woff?a6273a') format('woff'),
-    url('fonts/xicons.svg?a6273a#xicons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'xicons';
+    src: url('fonts/xicons.eot?gozuj3');
+    src: url('fonts/xicons.eot?gozuj3#iefix') format('embedded-opentype'), url('fonts/xicons.ttf?gozuj3') format('truetype'), url('fonts/xicons.woff?gozuj3') format('woff'), url('fonts/xicons.svg?gozuj3#xicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 [class^="ic-"], [class*=" ic-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'xicons' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'xicons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.ic-32:before {
+    content: "\e918";
+}
+
+.ic-31:before {
+    content: "\e919";
+}
+
+.ic-30:before {
+    content: "\e91a";
+}
+
+.ic-29:before {
+    content: "\e91b";
+}
+
+.ic-28:before {
+    content: "\e91c";
+}
+
+.ic-27:before {
+    content: "\e91d";
+}
+
+.ic-26:before {
+    content: "\e91e";
+}
+
+.ic-25:before {
+    content: "\e91f";
+}
+
+.ic-24:before {
+    content: "\e915";
+}
+
+.ic-23:before {
+    content: "\e916";
+}
+
+.ic-22:before {
+    content: "\e917";
+}
+
+.ic-21:before {
+    content: "\e912";
+}
+
+.ic-20:before {
+    content: "\e913";
+}
+
+.ic-19:before {
+    content: "\e914";
+}
+
+.ic-18:before {
+    content: "\e90e";
+}
+
+.ic-17:before {
+    content: "\e90f";
+}
+
+.ic-16:before {
+    content: "\e910";
+}
+
+.ic-15:before {
+    content: "\e911";
+}
+
+.ic-14:before {
+    content: "\e906";
+}
+
+.ic-13:before {
+    content: "\e907";
+}
+
+.ic-12:before {
+    content: "\e908";
+}
+
+.ic-11:before {
+    content: "\e909";
+}
+
+.ic-6:before {
+    content: "\e90a";
 }
 
 .ic-5:before {
-  content: "\e901";
+    content: "\e90b";
 }
+
 .ic-4:before {
-  content: "\e902";
+    content: "\e90c";
 }
+
 .ic-3:before {
-  content: "\e903";
+    content: "\e90d";
 }
+
+.ic-9:before {
+    content: "\e901";
+}
+
+.ic-8:before {
+    content: "\e902";
+}
+
+.ic-7:before {
+    content: "\e903";
+}
+
 .ic-2:before {
-  content: "\e904";
+    content: "\e904";
 }
+
 .ic-1:before {
-  content: "\e905";
+    content: "\e905";
 }
-.ic-44:before {
-  content: "\e900";
+
+.ic-10:before {
+    content: "\e900";
 }

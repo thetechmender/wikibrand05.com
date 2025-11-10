@@ -4,7 +4,7 @@
 
     <section class="main-banner-section bannerposition" style="background-image: url(/assets/img/bg/brand-mainbg.webp);">
         <div class="container">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center justify-content-between">
                 <div class="col-lg-6 col-md-12">
                     <div class="contentarea">
                         <h1>Build Your Reputation with Wikipedia Presence</h1>
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 customshaddow">
+                <div class="col-lg-5 col-md-12 customshaddow">
                     <div class="formarea fflex">
                         <div class="rotatetext">
                             <span>Reserve Your Discount</span>
@@ -103,21 +103,21 @@
                 </div>
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
-                        <i class="ic-3"></i>
+                        <i class="ic-4"></i>
                         <h3>Increased Online Visibility</h3>
                         <p>Gain instant recognition on the world’s most visited knowledge platform, boosting your visibility, authority, and credibility.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
-                        <i class="ic-3"></i>
+                        <i class="ic-9"></i>
                         <h3>Compliance With Guidelines</h3>
                         <p>We follow strict Wikipedia rules, ensuring accurate, neutral, and verified content that keeps your page safe and approved.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12">
                     <div class="benefit-box">
-                        <i class="ic-3"></i>
+                        <i class="ic-6"></i>
                         <h3>Page Management & Monitoring</h3>
                         <p>Regular monitoring and updates protect your page, ensuring long-term stability, accuracy, and credibility for your profile.</p>
                     </div>
@@ -175,7 +175,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="comt-box">
                         <div class="comt-box-icon">
-                            <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
+                            <i class="ic-15"></i>
                         </div>
                         <div class="comt-box-text">
                             <span>4k+</span>
@@ -187,7 +187,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="comt-box">
                         <div class="comt-box-icon">
-                            <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
+                            <i class="ic-16"></i>
                         </div>
                         <div class="comt-box-text">
                             <span>79%</span>
@@ -199,7 +199,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="comt-box">
                         <div class="comt-box-icon">
-                            <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
+                            <i class="ic-17"></i>
                         </div>
                         <div class="comt-box-text">
                             <span>75+</span>
@@ -211,7 +211,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="comt-box">
                         <div class="comt-box-icon">
-                            <img src="/assets/img/icons/search-icon.png" class="img-fluid" />
+                            <i class="ic-18"></i>
                         </div>
                         <div class="comt-box-text">
                             <span>15+</span>
@@ -246,7 +246,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                     <div class="crt-box">
                         <div class="crt-box-icon">
 
-                            <img src="/assets/img/icons/black-icon.png" class="img-fluid" />
+                            <i class="ic-11"></i>
                             <label>01</label>
                         </div>
                         <div class="crt-box-text">
@@ -261,7 +261,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                     <div class="crt-box">
                         <div class="crt-box-icon">
 
-                            <img src="/assets/img/icons/black-icon.png" class="img-fluid" />
+                            <i class="ic-12"></i>
                             <label>02</label>
                         </div>
                         <div class="crt-box-text">
@@ -275,7 +275,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                     <div class="crt-box">
                         <div class="crt-box-icon">
 
-                            <img src="/assets/img/icons/black-icon.png" class="img-fluid" />
+                            <i class="ic-13"></i>
                             <label>03</label>
                         </div>
                         <div class="crt-box-text">
@@ -289,7 +289,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                     <div class="crt-box">
                         <div class="crt-box-icon">
 
-                            <img src="/assets/img/icons/black-icon.png" class="img-fluid" />
+                            <i class="ic-14"></i>
                             <label>04</label>
                         </div>
                         <div class="crt-box-text">
@@ -346,7 +346,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7">
-                    <div class="testimonail-box">
+                    <div class="testimonail-box sty1">
                         <h2>Our Satisfied Clients</h2>
 
                         <div class="testimonial-holder">

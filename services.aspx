@@ -41,7 +41,7 @@
                                     <div class="benefit-box">
                                         <div class="row align-items-center fflex">
                                             <div class="rounded-circle custom mb-3">
-                                                <i class="ic-3"></i>
+                                                <i class="ic-25"></i>
                                             </div>
                                             <div>
                                                 <h3>Wikipedia Page Creation</h3>
@@ -57,7 +57,7 @@
                                     <div class="benefit-box">
                                         <div class="row align-items-center fflex">
                                             <div class="rounded-circle custom mb-3">
-                                                <i class="ic-3"></i>
+                                                <i class="ic-26"></i>
                                             </div>
                                             <div>
                                                 <h3>Page Editing & Updates</h3>
@@ -108,7 +108,7 @@
                         <div class="benefit-box">
                             <div class="row align-items-center fflex">
                                 <div class="rounded-circle custom mb-3">
-                                    <i class="ic-3"></i>
+                                    <i class="ic-27"></i>
                                 </div>
                                 <div>
                                     <h3>Complete Page Development</h3>
@@ -124,7 +124,7 @@
                         <div class="benefit-box">
                             <div class="row align-items-center fflex">
                                 <div class="rounded-circle custom mb-3">
-                                    <i class="ic-3"></i>
+                                    <i class="ic-28"></i>
                                 </div>
                                 <div>
                                     <h3>Authentic, Policy-Safe Content</h3>
@@ -140,7 +140,7 @@
                         <div class="benefit-box">
                             <div class="row align-items-center fflex">
                                 <div class="rounded-circle custom mb-3">
-                                    <i class="ic-3"></i>
+                                    <i class="ic-29"></i>
                                 </div>
                                 <div>
                                     <h3>Continuous Care & Maintenance</h3>
@@ -179,7 +179,7 @@
                             <div class=" align-items-start fflex gap-4">
                                 <div class="">
                                     <div class="rounded-circle custom">
-                                        <i class="ic-3"></i>
+                                        <i class="ic-30"></i>
                                     </div>
                                 </div>
                                 <div class="text-left">
@@ -197,7 +197,7 @@
                             <div class=" align-items-start fflex gap-4">
                                 <div class="">
                                     <div class="rounded-circle custom">
-                                        <i class="ic-3"></i>
+                                        <i class="ic-31"></i>
                                     </div>
                                 </div>
                                 <div class="text-left">
@@ -215,7 +215,7 @@
                             <div class=" align-items-start fflex gap-4">
                                 <div class="">
                                     <div class="rounded-circle custom">
-                                        <i class="ic-3"></i>
+                                        <i class="ic-32"></i>
                                     </div>
                                 </div>
                                 <div class="text-left">

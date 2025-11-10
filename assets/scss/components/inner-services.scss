@@ -294,6 +294,11 @@ p.cswidth {
             justify-content: center;
             margin: 0 auto;
 
+            i {
+                color: $white;
+                font-size: 40px;
+            }
+
             img {
                 width: 40px;
                 height: 40px;
@@ -363,10 +368,13 @@ p.cswidth {
         }
 
         .crt-box-icon {
-            margin: 15px 0;
+            margin: 0 0 15px 0;
             display: flex;
             align-items: center;
             justify-content: space-between;
+            i {
+                font-size: 35px;
+            }
 
             label {
 
@@ -411,17 +419,19 @@ p.cswidth {
     position: relative;
 
     .testimonail-box {
-        background-color: $iGray4;
-        padding: 80px 100px 30px 40px;
-        position: relative;
-        width: 100%;
-        border-radius: 40px;
-        height: 100%;
-        top: 0px;
+            &.sty1 {
+            background-color: $iGray1;
+            padding: 50px 130px 30px 40px;
+            position: relative;
+            width: 100%;
+            border-radius: 40px;
+            height: 100%;
+            top: 0px;
 
-        @media (max-width: 991px) {
-            border-radius: 12px;
-            padding:  40px;
+            @media (max-width: 991px) {
+                border-radius: 12px;
+                padding:  40px;
+            }
         }
 
         .testimonial-item-head {
@@ -454,7 +464,7 @@ p.cswidth {
         img {
             width: 100%;
             position: absolute;
-            left: -100px;
+            left: -70px;
             top: 50%;
             transform: translateY(-50%);
             /* height:100%;*/

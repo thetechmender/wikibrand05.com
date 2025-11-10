@@ -38,7 +38,7 @@
 
                     <a href="#." class="boxdetails">
                         <div class="icondetails rounded-5">
-                            <i class="ic-5"></i>
+                            <i class="ic-9"></i>
                         </div>
                         <div class="detailboxs">
                             <h3>Address</h3>

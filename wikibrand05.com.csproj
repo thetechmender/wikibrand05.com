@@ -223,6 +223,8 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="includes\chat-script.ascx" />
+    <Content Include="privacy-policy.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -505,7 +507,9 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="services.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="terms-conditions.aspx" />
     <Content Include="testimonials.aspx" />
+    <Content Include="thank-you.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -538,6 +542,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="includes\chat-script.ascx.cs">
+      <DependentUpon>chat-script.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="includes\chat-script.ascx.designer.cs">
+      <DependentUpon>chat-script.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="privacy-policy.aspx.cs">
+      <DependentUpon>privacy-policy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privacy-policy.aspx.designer.cs">
+      <DependentUpon>privacy-policy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="services.aspx.cs">
       <DependentUpon>services.aspx</DependentUpon>
@@ -560,12 +578,26 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="terms-conditions.aspx.cs">
+      <DependentUpon>terms-conditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="terms-conditions.aspx.designer.cs">
+      <DependentUpon>terms-conditions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="testimonials.aspx.cs">
       <DependentUpon>testimonials.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="testimonials.aspx.designer.cs">
       <DependentUpon>testimonials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="thank-you.aspx.cs">
+      <DependentUpon>thank-you.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="thank-you.aspx.designer.cs">
+      <DependentUpon>thank-you.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

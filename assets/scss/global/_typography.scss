@@ -21,7 +21,6 @@ a {
     color: #373737;
     font-family: $primaryFont;
     font-weight: 400;
-
     margin: 0 0 20px 0;
 }
 
@@ -34,28 +33,28 @@ p {
     margin: 0 0 20px 0;
 }
 h1 {
-    @include fontCalcSize(50, 35);
+    @include fontCalcSize(46, 28);
     font-weight: 400;
     font-family: $secondaryFont;
- 
     margin: 0 0 20px 0;
     color: $black;
 }
 
 h2 {
-    @include fontCalcSize(50, 26);
-    font-weight: 600;
+    @include fontCalcSize(50, 24);
+    font-weight: 700;
     font-family: $secondaryFont;
- text-transform:uppercase;
+    text-transform:uppercase;
     margin: 0 0 20px 0;
     color: $black;
 }
 
 h3 {
-    @include fontCalcSize(26, 20);
-    font-weight: 600;
+    @include fontCalcSize(23, 18);
+    font-weight: 700;
     font-family: $secondaryFont;
-    margin: 0 0 10px 0;
+    margin: 0 0 8px 0;
+    line-height: 1.2;
     color: $black;
 }
 
