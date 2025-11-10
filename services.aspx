@@ -92,7 +92,7 @@
     </section>
 
 
-    <section class="boxesitems bg-white stripe-3 pt-0">
+    <section class="boxesitems stripe-3 bgc-bgColor1">
         <div class="container">
 
             <div class="row text-center">
@@ -171,61 +171,55 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="custombenifits benifitstwo">
+                    <div class="custombenifits">
 
 
-                        <div class="benefit-box">
-
-                            <div class=" align-items-start fflex gap-4">
-                                <div class="">
+                        <div class="benefit-box sty3">
+                            <div class=" align-items-start fflex gap-4 flex-column">
+                                <div class="title-top">
                                     <div class="rounded-circle custom">
                                         <i class="ic-30"></i>
                                     </div>
+                                    <h4>Leaders & Experts</h4>
                                 </div>
                                 <div class="text-left">
-                                    <h4>Leaders & Experts</h4>
+                                    
                                     <p class="mb-0">We help leaders and professionals showcase their journey with accuracy and authority. A well-crafted Wikipedia page strengthens credibility and positions you as a trusted voice in your field.</p>
                                 </div>
                             </div>
-
-
                         </div>
 
 
-                        <div class="benefit-box">
-
-                            <div class=" align-items-start fflex gap-4">
-                                <div class="">
+                        <div class="benefit-box sty3">
+                            <div class=" align-items-start fflex gap-4 flex-column">
+                                <div class="title-top">
                                     <div class="rounded-circle custom">
                                         <i class="ic-31"></i>
                                     </div>
+                                    <h4>Companies & Organizations</h4>
                                 </div>
                                 <div class="text-left">
-                                    <h4>Companies & Organizations</h4>
+                                    
                                     <p class="mb-0">Every successful business has a story worth sharing, and we make sure yours is told the right way. By showcasing your achievements, milestones, and reputation on Wikipedia, we help strengthen your credibility, and build lasting trust with a global audience.</p>
                                 </div>
                             </div>
-
-
                         </div>
 
-
-                        <div class="benefit-box border-0">
-
-                            <div class=" align-items-start fflex gap-4">
-                                <div class="">
+                        <div class="benefit-box sty3">
+                            <div class=" align-items-start fflex gap-4 flex-column">
+                                <div class="title-top">
                                     <div class="rounded-circle custom">
                                         <i class="ic-32"></i>
                                     </div>
+                                    <h4>Writers, Innovators & Performers</h4>
                                 </div>
                                 <div class="text-left">
-                                    <h4>Writers, Innovators & Performers</h4>
+                                    
                                     <p class="mb-0">Creative minds deserve recognition that goes beyond borders. Whether you’re an author, artist, or innovator, we craft Wikipedia pages that highlight your talent, amplify your visibility, and give your work the long-term recognition it deserves in the digital world.</p>
                                 </div>
                             </div>
-
-
                         </div>
+
                     </div>
                 </div>
             </div>

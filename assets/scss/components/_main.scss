@@ -781,6 +781,34 @@
             background: #F67A00;
             transition: 0.5s ease;
         }
+        &.sty3 {
+            .title-top {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                .rounded-circle {
+                    width: 53px !important;
+                    height: 53px !important;
+                    margin-right: 10px;
+                    background-color: $iGray3;
+                    i {
+                        font-size: 30px;
+                        color: $iSecondary;
+                    }
+                }
+                h4 {
+                    margin-bottom: 0;
+                }
+            }
+            &:hover {
+                .rounded-circle {
+                    background-color: $iGray3;
+                    i {
+                        color: $iSecondary;
+                    }
+                }
+            }
+        }
     }
 
     .boxgotquestion {
@@ -1038,6 +1066,11 @@
                 height: 100%;
                 &:hover {
                     background-color: $iSecondary !important;
+                }
+                .rounded-circle {
+                    i {
+                        font-size: 35px;
+                    }
                 }
             }
         }
