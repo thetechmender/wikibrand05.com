@@ -1013,6 +1013,33 @@
             &:hover {
                 background: $iPrimary !important;
             }
+            &.sty1 {
+                background-color: $iGray6 !important;
+                height: 100%;
+                .rounded-circle {
+                    background-color: $iGray3;
+                    i {
+                        color: $iSecondary
+                    }
+                }
+                &:hover {
+                    background-color: $iSecondary !important;
+                    .rounded-circle {
+                        background-color: $white !important;
+                        i {
+                            color: $iSecondary !important;
+                        }
+;                    }
+                }
+                
+            }
+            &.sty2 {
+                background-color: $white !important;
+                height: 100%;
+                &:hover {
+                    background-color: $iSecondary !important;
+                }
+            }
         }
     }
 

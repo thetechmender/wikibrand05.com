@@ -38,7 +38,7 @@
                         <div class="custombenifits bgnone">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12">
-                                    <div class="benefit-box">
+                                    <div class="benefit-box sty1">
                                         <div class="row align-items-center fflex">
                                             <div class="rounded-circle custom mb-3">
                                                 <i class="ic-25"></i>
@@ -54,7 +54,7 @@
                                 </div>
 
                                 <div class="col-lg-6 col-md-12">
-                                    <div class="benefit-box">
+                                    <div class="benefit-box  sty1">
                                         <div class="row align-items-center fflex">
                                             <div class="rounded-circle custom mb-3">
                                                 <i class="ic-26"></i>
@@ -105,7 +105,7 @@
             <div class="custombenifits bgnone mt-5">
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
-                        <div class="benefit-box">
+                        <div class="benefit-box sty2">
                             <div class="row align-items-center fflex">
                                 <div class="rounded-circle custom mb-3">
                                     <i class="ic-27"></i>
@@ -121,7 +121,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-12">
-                        <div class="benefit-box">
+                        <div class="benefit-box sty2">
                             <div class="row align-items-center fflex">
                                 <div class="rounded-circle custom mb-3">
                                     <i class="ic-28"></i>
@@ -137,7 +137,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-12">
-                        <div class="benefit-box">
+                        <div class="benefit-box sty2">
                             <div class="row align-items-center fflex">
                                 <div class="rounded-circle custom mb-3">
                                     <i class="ic-29"></i>
