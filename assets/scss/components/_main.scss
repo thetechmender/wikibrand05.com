@@ -782,6 +782,7 @@
             transition: 0.5s ease;
         }
         &.sty3 {
+            border-bottom: $iSecondary solid 3px;
             .title-top {
                 display: flex;
                 align-items: center;
@@ -801,11 +802,16 @@
                 }
             }
             &:hover {
+                background-color: $iSecondary;
+                border-color: $iPrimary;
                 .rounded-circle {
-                    background-color: $iGray3;
+                    background-color: $iGray3 !important;
                     i {
-                        color: $iSecondary;
+                        color: $iSecondary !important;
                     }
+                }
+                h4 {
+                    color: $white
                 }
             }
         }

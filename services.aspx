@@ -175,7 +175,7 @@
 
 
                         <div class="benefit-box sty3">
-                            <div class=" align-items-start fflex gap-4 flex-column">
+                            <div class=" align-items-start fflex gap-2 flex-column">
                                 <div class="title-top">
                                     <div class="rounded-circle custom">
                                         <i class="ic-30"></i>
@@ -191,7 +191,7 @@
 
 
                         <div class="benefit-box sty3">
-                            <div class=" align-items-start fflex gap-4 flex-column">
+                            <div class=" align-items-start fflex gap-2 flex-column">
                                 <div class="title-top">
                                     <div class="rounded-circle custom">
                                         <i class="ic-31"></i>
@@ -206,7 +206,7 @@
                         </div>
 
                         <div class="benefit-box sty3">
-                            <div class=" align-items-start fflex gap-4 flex-column">
+                            <div class=" align-items-start fflex gap-2 flex-column">
                                 <div class="title-top">
                                     <div class="rounded-circle custom">
                                         <i class="ic-32"></i>
