@@ -113,7 +113,6 @@
     <Content Include="assets\img\bg\brand-mainbg.jpg" />
     <Content Include="assets\img\bg\cta-bg.png" />
     <Content Include="assets\img\bg\usps-section-bg.webp" />
-    <Content Include="assets\img\brand\site-logo.svg" />
     <Content Include="assets\img\flags%402x.png" />
     <Content Include="assets\img\flags.png" />
     <Content Include="assets\img\icons\black-icon.png" />
@@ -373,8 +372,6 @@
     <Content Include="assets\icons\fonts\xicons.woff" />
     <Content Include="assets\icons\selection.json" />
     <Content Include="assets\img\bg\cta-banner-image.webp" />
-    <Content Include="assets\img\brand\site-footer-logo.webp" />
-    <Content Include="assets\img\brand\site-logo.webp" />
     <Content Include="assets\img\icons\email-icos.webp" />
     <Content Include="assets\img\icons\li.webp" />
     <Content Include="assets\img\icons\location-icos.webp" />
@@ -478,6 +475,8 @@
     <Content Include="assets\img\mix\services1.webp" />
     <Content Include="assets\img\mix\services-last.webp" />
     <Content Include="assets\img\mix\ticks.webp" />
+    <Content Include="assets\img\brand\logo.webp" />
+    <Content Include="assets\img\brand\logo-footer.webp" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />

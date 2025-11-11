@@ -57,7 +57,7 @@
                 <div class="container">
                     <div class="fflex justify-content-between defaultbg">
                         <a href="/" class="logo">
-                            <img src="/assets/img/brand/site-logo.svg" alt="site-logo" />
+                            <img src="/assets/img/brand/logo.webp" alt="site-logo" />
                         </a>
                         <div class="rightsec lp-hide">
                             <div class="navigation">
@@ -106,7 +106,7 @@
                     <div class="col-lg-4">
                         <div class="logo-widget">
                             <a href="javascript:;">
-                                <img src="/assets/img/brand/site-logo.svg" alt="site-footer-logo">
+                                <img src="/assets/img/brand/logo-footer.webp" alt="site-footer-logo">
                             </a>
                             <p>Empowering your digital presence with trusted Wikipedia services. We create, maintain, and optimize profiles to enhance credibility, visibility, and global recognition for individuals and businesses.</p>
                         </div>
