@@ -43,7 +43,7 @@
                                     <p class="mt-3">Author</p>
                                 </div>
 
-                                <p>I had always dreamed of showcasing my work on a respected global platform like Wikipedia. My Wiki Brand made that dream possible by carefully crafting a page that highlighted my career, publications, and achievements with professionalism and accuracy. Their process was smooth.</p>
+                                <p>I had always dreamed of showcasing my work on a respected global platform like Wikipedia. <%=ConfigurationManager.AppSettings["brandName"] %> made that dream possible by carefully crafting a page that highlighted my career, publications, and achievements with professionalism and accuracy. Their process was smooth.</p>
                                 <div class="star">
                                     <img src="/assets/img/mix/stars.png" class="img-fluid " />
                                 </div>
@@ -72,7 +72,7 @@
                                     <p class="mt-3">Canadian Actor</p>
                                 </div>
 
-                                <p>I had tried multiple times to get a Wikipedia profile published but faced repeated rejections due to notability and formatting issues. My Wiki Brand took charge, conducted proper research, and presented my career in a way that was both compliant and authentic. The result was a professional page that truly reflects my journey. </p>
+                                <p>I had tried multiple times to get a Wikipedia profile published but faced repeated rejections due to notability and formatting issues. <%=ConfigurationManager.AppSettings["brandName"] %> took charge, conducted proper research, and presented my career in a way that was both compliant and authentic. The result was a professional page that truly reflects my journey. </p>
                                 <div class="star">
                                     <img src="/assets/img/mix/stars.png" class="img-fluid " />
                                 </div>
@@ -103,7 +103,7 @@
                            <p class="mt-3">Wrestler</p>
                        </div>
 
-                       <p>The team at My Wiki Brand went above and beyond to create a reliable Wikipedia page for me. They ensured every detail was accurate, every source credible, and every guideline followed perfectly. What stood out most was their commitment to making the process stress-free.</p>
+                       <p>The team at <%=ConfigurationManager.AppSettings["brandName"] %> went above and beyond to create a reliable Wikipedia page for me. They ensured every detail was accurate, every source credible, and every guideline followed perfectly. What stood out most was their commitment to making the process stress-free.</p>
                        <div class="star">
                            <img src="/assets/img/mix/stars.png" class="img-fluid " />
                        </div>
@@ -132,7 +132,7 @@
                            <p class="mt-3">Businesswoman</p>
                        </div>
 
-                       <p>Honesty and professionalism are rare to find, but My Wiki Brand delivered both. They clearly explained each stage of the process and maintained open communication throughout. Their attention to detail ensured that my accomplishments were presented in the best possible way.</p>
+                       <p>Honesty and professionalism are rare to find, but <%=ConfigurationManager.AppSettings["brandName"] %> delivered both. They clearly explained each stage of the process and maintained open communication throughout. Their attention to detail ensured that my accomplishments were presented in the best possible way.</p>
                        <div class="star">
                            <img src="/assets/img/mix/stars.png" class="img-fluid " />
                        </div>
@@ -164,7 +164,7 @@
                            <p class="mt-3">Internet Entrepreneur</p>
                        </div>
 
-                       <p>I never realized how complex Wikipedia publishing could be until I tried on my own. My Wiki Brand simplified everything, from gathering reliable sources to drafting content that aligned with Wikipedia’s rules. They created a polished profile that captures my achievements and ensures long-term credibility.</p>
+                       <p>I never realized how complex Wikipedia publishing could be until I tried on my own. <%=ConfigurationManager.AppSettings["brandName"] %> simplified everything, from gathering reliable sources to drafting content that aligned with Wikipedia’s rules. They created a polished profile that captures my achievements and ensures long-term credibility.</p>
                        <div class="star">
                            <img src="/assets/img/mix/stars.png" class="img-fluid " />
                        </div>
@@ -203,7 +203,7 @@
                              <p class="mt-3">Real Estate Investment Trust</p>
                          </div>
 
-                         <p>Our company wanted a stronger digital footprint, and My Wiki Brand delivered it flawlessly. They researched our background thoroughly, highlighted milestones accurately, and crafted a Wikipedia page that positioned us as a credible organization. The team managed everything professionally, keeping us informed at every stage.</p>
+                         <p>Our company wanted a stronger digital footprint, and <%=ConfigurationManager.AppSettings["brandName"] %> delivered it flawlessly. They researched our background thoroughly, highlighted milestones accurately, and crafted a Wikipedia page that positioned us as a credible organization. The team managed everything professionally, keeping us informed at every stage.</p>
                          <div class="star">
                              <img src="/assets/img/mix/stars.png" class="img-fluid " />
                          </div>
@@ -232,7 +232,7 @@
                              <p class="mt-3">African American Newspaper</p>
                          </div>
 
-                         <p>Telling our company’s story the right way was important to us, and My Wiki Brand exceeded expectations. They built a Wikipedia page that showcases our achievements, growth, and impact while staying fully compliant with all rules. Their professionalism and dedication made the process smooth and efficient.</p>
+                         <p>Telling our company’s story the right way was important to us, and <%=ConfigurationManager.AppSettings["brandName"] %> exceeded expectations. They built a Wikipedia page that showcases our achievements, growth, and impact while staying fully compliant with all rules. Their professionalism and dedication made the process smooth and efficient.</p>
                          <div class="star">
                              <img src="/assets/img/mix/stars.png" class="img-fluid " />
                          </div>
@@ -263,7 +263,7 @@
                              <p class="mt-3">Energy Company</p>
                          </div>
 
-                         <p>Telling our company’s story the right way was important to us, and My Wiki Brand exceeded expectations. They built a Wikipedia page that showcases our achievements, growth, and impact while staying fully compliant with all rules. Their professionalism and dedication made the process smooth and efficient.</p>
+                         <p>Telling our company’s story the right way was important to us, and <%=ConfigurationManager.AppSettings["brandName"] %> exceeded expectations. They built a Wikipedia page that showcases our achievements, growth, and impact while staying fully compliant with all rules. Their professionalism and dedication made the process smooth and efficient.</p>
                          <div class="star">
                              <img src="/assets/img/mix/stars.png" class="img-fluid " />
                          </div>
@@ -292,7 +292,7 @@
                              <p class="mt-3">Recycling Group</p>
                          </div>
 
-                         <p>Partnering with My Wiki Brand was one of the smartest decisions we made for our digital branding. They built a Wikipedia page that captures our journey, contributions, and impact in a professional manner. The page is well-written, supported with credible references, and represents our company authentically.</p>
+                         <p>Partnering with <%=ConfigurationManager.AppSettings["brandName"] %> was one of the smartest decisions we made for our digital branding. They built a Wikipedia page that captures our journey, contributions, and impact in a professional manner. The page is well-written, supported with credible references, and represents our company authentically.</p>
                          <div class="star">
                              <img src="/assets/img/mix/stars.png" class="img-fluid " />
                          </div>

@@ -8,7 +8,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="contentarea">
                         <h1>Build Your Reputation with Wikipedia Presence</h1>
-                        <p>At My Wiki Brand, we help you create a trusted and lasting presence on the world’s most visited encyclopedia. Our team ensures your profile meets Wikipedia’s strict standards while highlighting your achievements.</p>
+                        <p>At <%=ConfigurationManager.AppSettings["brandName"] %>, we help you create a trusted and lasting presence on the world’s most visited encyclopedia. Our team ensures your profile meets Wikipedia’s strict standards while highlighting your achievements.</p>
                         <ul>
                             <li>Professional Wikipedia page creation</li>
                             <li>Reliable research & authentic sources</li>
@@ -88,7 +88,7 @@
 
     <section class="stripe-3 main-benefit-section">
         <div class="container">
-            <h2 class="text-center">Advantages of Working With  <span class="defaultcolor">My Wiki Brand?</span> </h2>
+            <h2 class="text-center">Advantages of Working With  <span class="defaultcolor"><%=ConfigurationManager.AppSettings["brandName"] %>?</span> </h2>
             <p class="text-center mt-4">Boost your brand’s authority and recognition with expert Wikipedia services designed to meet platform rules. Our team ensures accuracy, neutrality, and long-term visibility for your page.</p>
             <div class="btn-box text-center mt-5">
                 <a href="javascript:;" class="btn btn-primary open-livechat">Create My Wikipedia</a>
@@ -132,9 +132,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <h2 class="text-left">Comprehensive  <span class="defaultcolor">Wikipedia Services</span></h2>
-                    <p class="text-left">At My Wiki Brand, we specialize in delivering end-to-end Wikipedia services designed to help brands, professionals, and organizations build authority and recognition. From initial research and drafting to page publishing and ongoing maintenance, our experts handle every detail with precision. We understand that Wikipedia is more than just an online encyclopedia — it’s a platform where credibility begins. That’s why we focus on creating content that highlights your achievements while meeting strict platform standards.</p>
+                    <p class="text-left">At <%=ConfigurationManager.AppSettings["brandName"] %>, we specialize in delivering end-to-end Wikipedia services designed to help brands, professionals, and organizations build authority and recognition. From initial research and drafting to page publishing and ongoing maintenance, our experts handle every detail with precision. We understand that Wikipedia is more than just an online encyclopedia — it’s a platform where credibility begins. That’s why we focus on creating content that highlights your achievements while meeting strict platform standards.</p>
                     <p class="text-left">
-Our experienced team of writers and editors ensures your page is built on accuracy, neutrality, and verified sources. Beyond creation, we offer consistent monitoring and protection to safeguard your presence from unnecessary edits or removals. With My Wiki Brand, you don’t just get a Wikipedia page — you gain a long-term digital asset that strengthens your reputation</p>
+Our experienced team of writers and editors ensures your page is built on accuracy, neutrality, and verified sources. Beyond creation, we offer consistent monitoring and protection to safeguard your presence from unnecessary edits or removals. With <%=ConfigurationManager.AppSettings["brandName"] %>, you don’t just get a Wikipedia page — you gain a long-term digital asset that strengthens your reputation</p>
                     <div class="btn-box text-left">
                         <a href="javascript:;" class="btn btn-primary open-livechat">Create My Wikipedia</a>
                     </div>
@@ -162,7 +162,7 @@ Our experienced team of writers and editors ensures your page is built on accura
                 </div>
                 <div class="col-xl-6 col-lg-6 col-sm-12">
                     <h2 class="text-white">Ready to Go Live on Wikipedia?</h2>
-                    <p class="text-white">Your journey, achievements, and brand deserve a place on the world’s most trusted knowledge platform. At My Wiki Brand, we make it possible by delivering professional Wikipedia services that are accurate, credible, and fully compliant with platform guidelines. From in-depth research and drafting to publishing and ongoing updates, we handle every step of the process with care, ensuring your profile stands out and remains reliable for years to come.</p>
+                    <p class="text-white">Your journey, achievements, and brand deserve a place on the world’s most trusted knowledge platform. At <%=ConfigurationManager.AppSettings["brandName"] %>, we make it possible by delivering professional Wikipedia services that are accurate, credible, and fully compliant with platform guidelines. From in-depth research and drafting to publishing and ongoing updates, we handle every step of the process with care, ensuring your profile stands out and remains reliable for years to come.</p>
                     <p class="text-white">
 Whether you’re a business, entrepreneur, or public figure, our experts handle everything from research to publishing and ongoing updates. Don’t miss the chance to strengthen your reputation and boost your visibility — take the first step today and make your mark on Wikipedia.</p>
                     <div class="mt-2">
@@ -232,7 +232,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
             <div class="row align-items-center mb-4">
                 <div class="col-xl-6 col-lg-6">
                     <h2 class="text-left text-uppercase">Our Services TO ENHANCE YOUR<span class="defaultcolor">WIKI PRESENCE</span></h2>
-                    <p class="text-left">At My Wiki Brand, we deliver end-to-end Wikipedia services that strengthen your online authority and credibility. Our experts handle everything from page creation to updates, ensuring your profile is accurate, compliant, and long-lasting. With reliable research, authentic citations, and professional writing, we craft pages that truly reflect your achievements. </p>
+                    <p class="text-left">At <%=ConfigurationManager.AppSettings["brandName"] %>, we deliver end-to-end Wikipedia services that strengthen your online authority and credibility. Our experts handle everything from page creation to updates, ensuring your profile is accurate, compliant, and long-lasting. With reliable research, authentic citations, and professional writing, we craft pages that truly reflect your achievements. </p>
                     <div class="mt-2">
                         <a href="javascript:;" class="btn btn-primary open-livechat">Create My Wikipedia</a>
                     </div>
@@ -357,7 +357,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                                     <p class="mt-3">Entrepreneur</p>
                                 </div>
 
-                                <p>Working with My Wiki Brand was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
+                                <p>Working with <%=ConfigurationManager.AppSettings["brandName"] %> was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
                                 <div class="star">
                                     <img src="/assets/img/mix/stars.png" class="img-fluid " />
                                 </div>
@@ -386,7 +386,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
                                     <p class="mt-3">Startup Founder</p>
                                 </div>
 
-                                <p>The expertise of My Wiki Brand is unmatched. They not only created my Wikipedia profile but also ensured it met all notability and compliance requirements. Their ongoing monitoring and updates give me peace of mind knowing my page stays accurate and professional.</p>
+                                <p>The expertise of <%=ConfigurationManager.AppSettings["brandName"] %> is unmatched. They not only created my Wikipedia profile but also ensured it met all notability and compliance requirements. Their ongoing monitoring and updates give me peace of mind knowing my page stays accurate and professional.</p>
                                 <div class="star">
                                     <img src="/assets/img/mix/stars.png" class="img-fluid " />
                                 </div>
@@ -415,7 +415,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
             <div class="boxgotquestion">
                 <div class="row fflex align-content-center">
                     <div class="col-lg-3 col-md-12">
-                        <h3>How does My Wiki Brand help create a Wikipedia page?</h3>
+                        <h3>How does <%=ConfigurationManager.AppSettings["brandName"] %> help create a Wikipedia page?</h3>
                     </div>
                     <div class="col-lg-9 col-md-12">
                         <div class="justify-content-center fflex">
@@ -430,7 +430,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
             <div class="boxgotquestion">
                 <div class="row fflex align-content-center">
                     <div class="col-lg-3 col-md-12">
-                        <h3>How can My Wiki Brand improve my page’s credibility?</h3>
+                        <h3>How can <%=ConfigurationManager.AppSettings["brandName"] %> improve my page’s credibility?</h3>
                     </div>
                     <div class="col-lg-9 col-md-12">
                         <div class="justify-content-center fflex">
@@ -445,7 +445,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
             <div class="boxgotquestion">
                 <div class="row fflex align-content-center">
                     <div class="col-lg-3 col-md-12">
-                        <h3>How does My Wiki Brand maintain existing pages?</h3>
+                        <h3>How does <%=ConfigurationManager.AppSettings["brandName"] %> maintain existing pages?</h3>
                     </div>
                     <div class="col-lg-9 col-md-12">
                         <div class="justify-content-center fflex">
@@ -460,7 +460,7 @@ Whether you’re a business, entrepreneur, or public figure, our experts handle 
             <div class="boxgotquestion">
                 <div class="row fflex align-content-center">
                     <div class="col-lg-3 col-md-12">
-                        <h3>Can My Wiki Brand help reach a global audience?</h3>
+                        <h3>Can <%=ConfigurationManager.AppSettings["brandName"] %> help reach a global audience?</h3>
                     </div>
                     <div class="col-lg-9 col-md-12">
                         <div class="justify-content-center fflex">

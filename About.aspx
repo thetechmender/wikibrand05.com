@@ -4,7 +4,6 @@
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-
     <section class="main-banner-section bannerposition" style="background-image: url(/assets/img/bg/brand-mainbg.webp);">
         <div class="container">
             <div class="row d-flex align-items-center">
@@ -89,8 +88,6 @@
         </div>
     </section>
 
-
-
     <section class="stripe-3 bg-white pt-0">
         <div class="container">
             <div class="row d-flex align-items-center">
@@ -132,7 +129,6 @@
         </div>
     </section>
 
-
     <section class="stripe-3 bg-white pt-0">
         <div class="container">
             <div class="row d-flex align-items-center">
@@ -145,7 +141,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="contentareaa">
                         <h2>How We Deliver Lasting Recognition</h2>
-                        <p class="mb-4 pb-2">At My Wiki Brand, we combine expertise and credibility to give your Wikipedia presence the recognition it deserves. Our approach is built on trust, research, and long-term success.</p>
+                        <p class="mb-4 pb-2">At <%=ConfigurationManager.AppSettings["brandName"] %>, we combine expertise and credibility to give your Wikipedia presence the recognition it deserves. Our approach is built on trust, research, and long-term success.</p>
 
                     </div>
                     <div class="custombenifits benifitstwo">
@@ -183,8 +179,6 @@
         </div>
     </section>
 
-
-
     <section class="cta-sec" style="background-image: url('/assets/img/bg/cta-bg.png')">
         <div class="container">
             <div class="row align-items-center">
@@ -202,7 +196,6 @@
         </div>
     </section>
 
-
     <section class="stripe-3 bg-white testimonail-sec">
         <div class="container">
             <div class="row">
@@ -218,7 +211,7 @@
                                     <p class="mt-3">Entrepreneur</p>
                                 </div>
 
-                                <p>Working with My Wiki Brand was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
+                                <p>Working with <%=ConfigurationManager.AppSettings["brandName"] %> was a game-changer for my business. They handled every detail of my Wikipedia page with professionalism, from drafting content to ensuring strict compliance with Wikipedia’s guidelines. My profile now enhances credibility and helps attract new clients.</p>
                                 <div class="star">
                                     <img src="/assets/img/mix/stars.png" class="img-fluid " />
                                 </div>
@@ -247,7 +240,7 @@
                                     <p class="mt-3">Startup Founder</p>
                                 </div>
 
-                                <p>The expertise of My Wiki Brand is unmatched. They not only created my Wikipedia profile but also ensured it met all notability and compliance requirements. Their ongoing monitoring and updates give me peace of mind knowing my page stays accurate and professional.</p>
+                                <p>The expertise of <%=ConfigurationManager.AppSettings["brandName"] %> is unmatched. They not only created my Wikipedia profile but also ensured it met all notability and compliance requirements. Their ongoing monitoring and updates give me peace of mind knowing my page stays accurate and professional.</p>
                                 <div class="star">
                                     <img src="/assets/img/mix/stars.png" class="img-fluid " />
                                 </div>
@@ -275,7 +268,7 @@
             <div class="boxgotquestion">
                 <div class="row fflex align-content-center">
                     <div class="col-lg-3 col-md-12">
-                        <h3>How does My Wiki Brand help create a Wikipedia page?</h3>
+                        <h3>How does <%=ConfigurationManager.AppSettings["brandName"] %> help create a Wikipedia page?</h3>
                     </div>
                     <div class="col-lg-9 col-md-12">
                         <div class="justify-content-center fflex">
@@ -290,7 +283,7 @@
             <div class="boxgotquestion">
                 <div class="row fflex align-content-center">
                     <div class="col-lg-3 col-md-12">
-                        <h3>How can My Wiki Brand improve my page’s credibility?</h3>
+                        <h3>How can <%=ConfigurationManager.AppSettings["brandName"] %> improve my page’s credibility?</h3>
                     </div>
                     <div class="col-lg-9 col-md-12">
                         <div class="justify-content-center fflex">
@@ -305,7 +298,7 @@
             <div class="boxgotquestion">
                 <div class="row fflex align-content-center">
                     <div class="col-lg-3 col-md-12">
-                        <h3>How does My Wiki Brand maintain existing pages?</h3>
+                        <h3>How does <%=ConfigurationManager.AppSettings["brandName"] %> maintain existing pages?</h3>
                     </div>
                     <div class="col-lg-9 col-md-12">
                         <div class="justify-content-center fflex">
@@ -320,7 +313,7 @@
             <div class="boxgotquestion">
                 <div class="row fflex align-content-center">
                     <div class="col-lg-3 col-md-12">
-                        <h3>Can My Wiki Brand help reach a global audience?</h3>
+                        <h3>Can <%=ConfigurationManager.AppSettings["brandName"] %> help reach a global audience?</h3>
                     </div>
                     <div class="col-lg-9 col-md-12">
                         <div class="justify-content-center fflex">
@@ -379,7 +372,5 @@
             </div>
         </section>
     </section>
-
-
 
 </asp:Content>
