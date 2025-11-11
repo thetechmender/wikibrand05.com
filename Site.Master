@@ -24,6 +24,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<style>
+.modal-body {
+    display: flex;
+}
+.modal-body .modal-left-content {
+    width: 50%;
+}
+.modal-body .modal-right-content {
+    width: 50%;
+    background: #000;
+    padding: 20px;
+}
+.modal-right-content .formarea {
+    background: transparent;
+}
+.modal-right-content .formarea .formstylebox input, .modal-right-content .formarea .form-check-holder, .modal-right-content .formarea .formstylebox textarea  {
+    background: rgb(90 90 90 / 50%);
+    border-radius: 10px;
+    color: #fff !important;
+}
+.modal-right-content .form-group {
+    margin-bottom: 16px;
+}
+.modal-right-content input::placeholder, .modal-right-content textarea::placeholder {
+    color: #fff !important;
+}
+#leadsPopup .btn-close {
+    position: absolute;
+    z-index: 9;
+    right: 25px;
+    top: 25px;
+    background-color: #fff !important;
+    border-radius: 50px;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 992px) {
+    .modal-left-content {
+        display: none;
+    }
+    .modal-right-content {
+        width: 100%;
+    }
+}
+</style>
+
 </head>
 <body>
     <form runat="server">
@@ -178,28 +230,85 @@
             </div>
         </footer>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#leadsPopup">
   Launch static backdrop modal
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" id="leadsPopup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="leadsPopupLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content bg-white p-3">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-content bg-white p-3 rounded-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+         &times;
+        </button>
+      <div class="modal-body p-0">
+              <div class="modal-left-content">
+                  <img class="w-100 h-100" src="/assets/img/mix/popup-image.webp" alt="popup-image">
+              </div>
+              <div class="modal-right-content">
+                  <div class="formarea">
+                        <div class="formstylebox w-100 p-0">
+                            <p class="text-white mb-2">Create your Own Wikipedia Page</p>
+                            <h2 class="text-capitalize">Create your Own Wikipedia Page</h2>
+                            <%-- <input type="text" class="form-control" placeholder="Enter Your Name" />--%>
+                            <asp:TextBox ID="txtcnsite100" CssClass="form-control" runat="server" placeholder="Enter Your Name"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidatorName" runat="server" ControlToValidate="txtcnsite100" ErrorMessage="*" ValidationGroup="A" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                            <asp:RegularExpressionValidator ID="RegularExpressionValidatorName" runat="server" ErrorMessage="Please enter correct name"
+                                ValidationGroup="A" ValidationExpression="^[a-zA-Z\s]+$" CssClass="text-danger" Display="Dynamic"
+                                ControlToValidate="txtcnsite100">
+                            </asp:RegularExpressionValidator>
+
+
+                            <%-- <input type="email" class="form-control" placeholder="Enter Your Email" />--%>
+
+                            <asp:TextBox ID="txtemsite100" CssClass="form-control" runat="server" placeholder="Email Your Email"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidatorEmail" runat="server" ControlToValidate="txtemsite100" ErrorMessage="*" ValidationGroup="A" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                            <asp:RegularExpressionValidator ID="RegularExpressionValidatorEmail" runat="server" ErrorMessage="Please enter correct email"
+                                ValidationGroup="A" ValidationExpression="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" CssClass="text-danger"
+                                Display="Dynamic" ControlToValidate="txtemsite100">
+                            </asp:RegularExpressionValidator>
+
+                            <div class="form-group iti-group">
+                                <input type="hidden" value="" class="countryname">
+                                <input type="hidden" value="" class="countrycode">
+                                <input type="hidden" value="" class="dialcode" name="dcsite125" id="dcsite125">
+                                <asp:TextBox ID="pnsite1" CssClass="phone-js form-control js-byphone js-valGet js-numbervalid pn" type="tel" MaxLength="10" minlength="10" runat="server" placeholder="Phone Number"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidatorPhone" runat="server" ControlToValidate="pnsite1" ErrorMessage="*" ValidationGroup="A" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                                <asp:RegularExpressionValidator ID="RegularExpressionValidator8" runat="server" ErrorMessage="Please enter correct number 0 to 9"
+                                    ValidationGroup="A" ValidationExpression="^[0-9]{10}$" CssClass="text-danger" Display="Dynamic"
+                                    ControlToValidate="pnsite1">
+                                </asp:RegularExpressionValidator>
+                            </div>
+
+                            <div class="form-check-holder">
+                                <label class="text-white">Select the Type of Wikipedia Page You Need:</label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option1">
+                                    <label class="form-check-label text-white" for="inlineCheckbox11">Individual Page</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox22" value="option2">
+                                    <label class="form-check-label text-white" for="inlineCheckbox22">Company Page</label>
+                                </div>
+                            </div>
+                            <textarea name="Message" class="form-control" placeholder="Enter Your Message..." id=""></textarea>
+
+                            <input type="hidden" value="" class="" name="visitor100" id="visitor100">
+                            <asp:HiddenField ID="hdnPageUrlsite100" runat="server" />
+                            <p>
+                                <asp:Label ID="lblErrorMessagesite100" runat="server" Text="" ForeColor="Red"></asp:Label>
+                            </p>
+
+                            <button type="submit" class=" btn btn-primary">Get Started</button>
+                            <%-- <asp:Button Text="Submit Now" class="ctm-submit-btn" ValidationGroup="A" ID="" OnClick="" />--%>
+                        </div>
+                  </div>
+              </div>
+        
       </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
       </div>
     </div>
   </div>
-</div>
     </form>
 
     <!-- Scripts -->
