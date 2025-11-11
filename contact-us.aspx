@@ -161,7 +161,7 @@
         <div class="boxgotquestion">
             <div class="row fflex align-content-center">
                 <div class="col-lg-3 col-md-12">
-                    <h3>How does My Wiki Brand help create a Wikipedia page?</h3>
+                    <h3>How does <%=ConfigurationManager.AppSettings["brandName"] %> help create a Wikipedia page?</h3>
                 </div>
                 <div class="col-lg-9 col-md-12">
                     <div class="justify-content-center fflex">
@@ -176,7 +176,7 @@
         <div class="boxgotquestion">
             <div class="row fflex align-content-center">
                 <div class="col-lg-3 col-md-12">
-                    <h3>How can My Wiki Brand improve my page’s credibility?</h3>
+                    <h3>How can <%=ConfigurationManager.AppSettings["brandName"] %> improve my page’s credibility?</h3>
                 </div>
                 <div class="col-lg-9 col-md-12">
                     <div class="justify-content-center fflex">
@@ -191,7 +191,7 @@
         <div class="boxgotquestion">
             <div class="row fflex align-content-center">
                 <div class="col-lg-3 col-md-12">
-                    <h3>How does My Wiki Brand maintain existing pages?</h3>
+                    <h3>How does <%=ConfigurationManager.AppSettings["brandName"] %> maintain existing pages?</h3>
                 </div>
                 <div class="col-lg-9 col-md-12">
                     <div class="justify-content-center fflex">
@@ -206,7 +206,7 @@
         <div class="boxgotquestion">
             <div class="row fflex align-content-center">
                 <div class="col-lg-3 col-md-12">
-                    <h3>Can My Wiki Brand help reach a global audience?</h3>
+                    <h3>Can <%=ConfigurationManager.AppSettings["brandName"] %> help reach a global audience?</h3>
                 </div>
                 <div class="col-lg-9 col-md-12">
                     <div class="justify-content-center fflex">
