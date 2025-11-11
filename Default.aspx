@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row d-flex align-items-center justify-content-between">
                 
-                <div class="col-lg-5 col-md-12 customshaddow">
+                <div class="col-lg-5 col-md-12 customshaddow  order-lg-2">
                     <div class="formarea fflex">
                         <div class="rotatetext">
                             <span>Reserve Your Discount</span>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-6 col-md-12 order-lg-2">
+                <div class="col-lg-6 col-md-12">
                     <div class="contentarea">
                         <h1>Build Your Reputation with Wikipedia Presence</h1>
                         <p>At <%=ConfigurationManager.AppSettings["brandName"] %>, we help you create a trusted and lasting presence on the world’s most visited encyclopedia. Our team ensures your profile meets Wikipedia’s strict standards while highlighting your achievements.</p>
