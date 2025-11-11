@@ -619,7 +619,7 @@
     }
 
     @media (max-width: 991px) {
-        margin-top: 30px;
+        margin-top: 0;
     }
 
 
@@ -1252,3 +1252,12 @@
             }
         }
     }
+
+
+
+@media (max-width: 991px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}

@@ -5,22 +5,7 @@
     <section class="main-banner-section bannerposition" style="background-image: url(/assets/img/bg/brand-mainbg.webp);">
         <div class="container">
             <div class="row d-flex align-items-center justify-content-between">
-                <div class="col-lg-6 col-md-12">
-                    <div class="contentarea">
-                        <h1>Build Your Reputation with Wikipedia Presence</h1>
-                        <p>At <%=ConfigurationManager.AppSettings["brandName"] %>, we help you create a trusted and lasting presence on the world’s most visited encyclopedia. Our team ensures your profile meets Wikipedia’s strict standards while highlighting your achievements.</p>
-                        <ul>
-                            <li>Professional Wikipedia page creation</li>
-                            <li>Reliable research & authentic sources</li>
-                            <li>Ongoing monitoring and updates</li>
-                            <li>Trusted services across the USA</li>
-                        </ul>
-                        <div class="btn-box">
-                            <a href="javascript:;" class="btn btn-primary mr-4 open-livechat">Create My Wikipedia</a>
-                            <%--         <a href="javascript:;" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#leadspopup">Get a Quote</a>--%>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-lg-5 col-md-12 customshaddow">
                     <div class="formarea fflex">
                         <div class="rotatetext">
@@ -82,6 +67,24 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="col-lg-6 col-md-12 order-lg-2">
+                    <div class="contentarea">
+                        <h1>Build Your Reputation with Wikipedia Presence</h1>
+                        <p>At <%=ConfigurationManager.AppSettings["brandName"] %>, we help you create a trusted and lasting presence on the world’s most visited encyclopedia. Our team ensures your profile meets Wikipedia’s strict standards while highlighting your achievements.</p>
+                        <ul>
+                            <li>Professional Wikipedia page creation</li>
+                            <li>Reliable research & authentic sources</li>
+                            <li>Ongoing monitoring and updates</li>
+                            <li>Trusted services across the USA</li>
+                        </ul>
+                        <div class="btn-box">
+                            <a href="javascript:;" class="btn btn-primary mr-4 open-livechat">Create My Wikipedia</a>
+                            <%--         <a href="javascript:;" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#leadspopup">Get a Quote</a>--%>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
