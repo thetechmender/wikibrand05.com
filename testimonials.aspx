@@ -289,7 +289,7 @@
                      <div class="testimonial-item">
                          <div class="testimonial-item-head">
                              <span>Umicore</span>
-                             <p class="mt-3">Recycling Group</p>
+                             <p class="mt-3">Recycling Group</p> 
                          </div>
 
                          <p>Partnering with <%=ConfigurationManager.AppSettings["brandName"] %> was one of the smartest decisions we made for our digital branding. They built a Wikipedia page that captures our journey, contributions, and impact in a professional manner. The page is well-written, supported with credible references, and represents our company authentically.</p>
